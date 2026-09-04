@@ -178,7 +178,8 @@ export async function getStrapiTemplates(): Promise<GalleryTemplate[]> {
         ?? popularityRanks.get(template.title);
       return [{ ...template, popular: popularityRank !== undefined, popularityRank }];
     });
-  } catch {
+  } catch (error) {
+    console.error("Vorlagen konnten nicht geladen werden, Galerie bleibt leer:", error);
     return [];
   }
 }
