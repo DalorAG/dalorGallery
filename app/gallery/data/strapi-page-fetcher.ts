@@ -17,6 +17,11 @@ type StrapiPage<T> = {
 const GESAMT_BUDGET_MS = 7_000;
 const SEITEN_TIMEOUT_MS = 4_000;
 
+function istDynamikSignal(error: unknown): boolean {
+  const name = (error as { digest?: unknown })?.digest;
+  return typeof name === "string" && name.startsWith("DYNAMIC_SERVER_USAGE");
+}
+
 export async function fetchAllStrapiPages<T>(
   baseUrl: string,
   pageSize = 100,
@@ -51,7 +56,12 @@ export async function fetchAllStrapiPages<T>(
       pageCount = payload.meta?.pagination?.pageCount ?? page;
       page += 1;
     } catch (error) {
-      // Eine hängende Seite darf die bereits geladenen nicht mitreißen.
+      // Next.js meldet über einen geworfenen Fehler, dass die Seite dynamisch
+      // gerendert werden muss. Der muss durch, sonst hält der Build die Route
+      // fälschlich für statisch und friert einen Teilbestand ein.
+      if (istDynamikSignal(error)) throw error;
+
+      // Eine hängende Seite dagegen darf die bereits geladenen nicht mitreißen.
       console.error(`Strapi-Seite ${page} nicht geladen (${url}):`, error);
       break;
     }
