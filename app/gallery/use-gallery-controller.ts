@@ -11,9 +11,16 @@ import { trackAnalytics } from "./analytics";
  * Instanz gibt es davon noch keine – die Startseite zeigte dann „Keine Vorlagen
  * gefunden", obwohl der Bestand vollständig da ist. Deshalb nur dort starten,
  * wo auch etwas zu sehen ist.
+ *
+ * Ein einzelner Treffer reicht dafür aber nicht: sobald die erste Vorlage
+ * angeklickt worden war, empfing die Startseite jeden Besucher mit genau dieser
+ * einen Kachel, während dreihundert weitere unsichtbar dahinter lagen.
  */
+const MINDESTENS_POPULAER = 4;
+
 function initialCategory(templates: GalleryTemplate[]) {
-  return templates.some((template) => template.popular) ? "Popular" : "All";
+  const populaere = templates.filter((template) => template.popular).length;
+  return populaere >= MINDESTENS_POPULAER ? "Popular" : "All";
 }
 
 export function useGalleryController(availableTemplates: GalleryTemplate[], locale: string) {
