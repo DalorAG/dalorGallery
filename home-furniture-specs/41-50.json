@@ -1,0 +1,811 @@
+[
+ {
+  "slug": "home-furniture-cushion-covers-colour-grid",
+  "title": "Cushion Covers Colour Grid",
+  "description": "Six cushion covers laid out in a strict grid, each square a different colour and weave.",
+  "searchKeywords": [
+   "cushion",
+   "pillow cover",
+   "colour grid",
+   "swatch",
+   "textile",
+   "furniture ad",
+   "soft furnishing",
+   "set",
+   "pattern",
+   "home furniture"
+  ],
+  "prompt": "A grid layout advertisement for a range of cushion covers, vertical 4:5.\n\nSix cushions are laid flat on a {{background_material}} surface and photographed from directly above with a 50mm lens, arranged in a strict two by three grid with equal gaps. Each one is a different fabric and colour, reading across the rows as {{colour_names}}, in {{fabric_types}}. They are not perfectly square - one is plumped more than the others, one corner is dog eared, and the zips show along the lower edges. A broad soft light from the top left gives every weave direction and leaves a thin shadow along the right of each cushion.\n\nText layout: the headline \"{{headline_text}}\" sits across the top above the grid in a medium sans. Under each cushion a tiny caption gives its name, reading \"{{cushion_names}}\". Top right \"{{brand_name}}\". Along the bottom edge a full width bar in {{accent_color}} carrying \"{{footer_line}}\".\n\nInvented brand only, no real manufacturers and no real product names. Every piece of quoted text appears exactly once, spelled exactly as given and never repeated. Real overhead light, fabric with genuine weave and slight wrinkles, no flat scan and no drop shadows added afterwards.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "six cushion covers in different colours laid out in a grid from above",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "HOLLAND & PYE",
+    "required": true
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "Six ways to change a sofa",
+    "required": true
+   },
+   {
+    "key": "colour_names",
+    "label": "Colours",
+    "inputType": "text",
+    "placeholder": "rust, ink blue, moss, ochre, plum and off white",
+    "required": false
+   },
+   {
+    "key": "cushion_names",
+    "label": "Cushion names",
+    "inputType": "text",
+    "placeholder": "Kiln / Harbour / Fern / Ember / Sloe / Chalk",
+    "required": false
+   },
+   {
+    "key": "fabric_types",
+    "label": "Fabrics",
+    "inputType": "text",
+    "placeholder": "wool boucle, brushed cotton, corduroy and heavy linen",
+    "required": false
+   },
+   {
+    "key": "background_material",
+    "label": "Background surface",
+    "inputType": "text",
+    "placeholder": "dark grey painted plywood",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Footer bar colour",
+    "inputType": "text",
+    "placeholder": "deep rust",
+    "required": false
+   },
+   {
+    "key": "footer_line",
+    "label": "Footer line",
+    "inputType": "text",
+    "placeholder": "Covers only - all fit a 50 cm pad",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "home-furniture-chunky-knit-throw-macro",
+  "title": "Chunky Knit Throw Macro",
+  "description": "A very close macro of a chunky knit throw draped over a chair arm, texture filling the frame.",
+  "searchKeywords": [
+   "throw",
+   "knit blanket",
+   "macro",
+   "texture",
+   "wool",
+   "textile",
+   "furniture ad",
+   "close up",
+   "chunky knit",
+   "home furniture"
+  ],
+  "prompt": "A macro advertisement for a chunky knit throw, vertical 4:5.\n\nThe frame is filled almost entirely by the knit itself. A 100mm macro lens sits close to a throw draped over the arm of a chair, so the stitches run diagonally across the picture and only a sliver of {{background_hint}} shows in the top corner. The yarn is {{yarn_type}} in {{throw_colour}}, hand knitted in {{stitch_style}}, with loose fibres standing up along the ridges and one dropped stitch left visible. Hard low side light rakes across the surface so each stitch throws its own shadow and the depth of the pile reads properly; focus falls off within a few centimetres.\n\nText layout: the headline \"{{headline_text}}\" runs across the lower third in a light sans, dropping over the soft out of focus area so it stays readable. Under it, one line of small type reading \"{{detail_line}}\". Top left, small, \"{{brand_name}}\". Bottom right, \"{{price_text}}\".\n\nInvented brand only, no real manufacturers and no real product names. Every piece of quoted text appears exactly once, spelled exactly as given and never repeated. True macro depth of field with real falloff, wool fibre and irregular stitches, no smoothed or painted texture.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "an extreme close up of a chunky knit wool throw draped over a chair arm",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "DUNSMORE",
+    "required": true
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "Two kilos of wool and nothing else",
+    "required": true
+   },
+   {
+    "key": "detail_line",
+    "label": "Detail line",
+    "inputType": "text",
+    "placeholder": "Knitted on 25 mm needles, one throw a day",
+    "required": false
+   },
+   {
+    "key": "yarn_type",
+    "label": "Yarn",
+    "inputType": "text",
+    "placeholder": "undyed merino roving",
+    "required": false
+   },
+   {
+    "key": "throw_colour",
+    "label": "Throw colour",
+    "inputType": "text",
+    "placeholder": "deep petrol blue",
+    "required": false
+   },
+   {
+    "key": "stitch_style",
+    "label": "Stitch",
+    "inputType": "text",
+    "placeholder": "a wide garter stitch",
+    "required": false
+   },
+   {
+    "key": "background_hint",
+    "label": "Background hint",
+    "inputType": "text",
+    "placeholder": "a dark green velvet chair arm",
+    "required": false
+   },
+   {
+    "key": "price_text",
+    "label": "Price line",
+    "inputType": "text",
+    "placeholder": "165",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "home-furniture-linen-bedding-morning",
+  "title": "Linen Bedding Morning",
+  "description": "Washed linen bedding photographed unmade in low morning light, creases and all.",
+  "searchKeywords": [
+   "bedding",
+   "bed linen",
+   "washed linen",
+   "duvet cover",
+   "morning light",
+   "textile",
+   "furniture ad",
+   "bedroom",
+   "creases",
+   "home furniture"
+  ],
+  "prompt": "A soft, honest advertisement for washed linen bedding, vertical 4:5.\n\nA bed seen from above and slightly to one side, filling the whole frame, shot with a 35mm lens from a step ladder. The bedding is {{fabric_type}} in {{bedding_colour}}, thoroughly unmade - the duvet swept to one side in a heavy diagonal fold, two pillows dented, the fitted sheet pulled loose at one corner. Across the foot lies {{accent_textile}}. Low morning sun comes from the left through a gap in a curtain and lays one hard bright stripe across the linen, the rest staying in cool shadow; every crease casts its own small shadow along the stripe.\n\nText layout: the headline \"{{headline_text}}\" runs across the shadowed area at the bottom left in a light serif. To the right of it, small type reading \"{{subline_text}}\". Top right corner \"{{brand_name}}\" with \"{{detail_line}}\" underneath in smaller type.\n\nInvented brand only, no real manufacturers and no real product names. Every piece of quoted text appears exactly once, spelled exactly as given and never repeated. Real morning sun with a hard edge, linen that is genuinely creased and slightly pilled, no ironed perfection.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "unmade washed linen bedding in low morning sunlight seen from above",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "AVERLY",
+    "required": true
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "It is meant to look like this",
+    "required": true
+   },
+   {
+    "key": "subline_text",
+    "label": "Subline",
+    "inputType": "text",
+    "placeholder": "Stonewashed European flax. It never needs an iron and never will.",
+    "required": false
+   },
+   {
+    "key": "bedding_colour",
+    "label": "Bedding colour",
+    "inputType": "text",
+    "placeholder": "slate blue",
+    "required": false
+   },
+   {
+    "key": "fabric_type",
+    "label": "Fabric",
+    "inputType": "text",
+    "placeholder": "stonewashed heavy linen",
+    "required": false
+   },
+   {
+    "key": "accent_textile",
+    "label": "Accent textile",
+    "inputType": "text",
+    "placeholder": "a mustard waffle blanket",
+    "required": false
+   },
+   {
+    "key": "detail_line",
+    "label": "Detail line",
+    "inputType": "text",
+    "placeholder": "Five sizes, eleven colours",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "home-furniture-table-linen-laid-table",
+  "title": "Table Linen Laid Table",
+  "description": "A table runner and napkins on a laid table, shot along the surface at plate height.",
+  "searchKeywords": [
+   "table runner",
+   "napkins",
+   "table linen",
+   "dining",
+   "place setting",
+   "textile",
+   "furniture ad",
+   "tablescape",
+   "ochre",
+   "home furniture"
+  ],
+  "prompt": "A warm advertisement for a set of table linen, vertical 4:5.\n\nThe camera sits right down on the table with a 50mm lens, so the surface runs away from the viewer and the far end goes soft. A {{runner_colour}} runner in {{fabric_type}} lies down the middle of a {{table_material}} table, not quite straight. Two napkins are folded loosely beside plates, one of them already unfolded and pushed aside, with a wine stain on it. Between them sit a candle burning low, a chipped stoneware jug and a heel of bread on a board. Late afternoon light comes from the far end so the linen is backlit and the weave shows through where it lifts off the table.\n\nText layout: the headline \"{{headline_text}}\" sits in the softer upper area, in a warm serif, partly overlapped by the out of focus candle flame. Bottom left \"{{brand_name}}\". Bottom right a small block of two lines reading \"{{set_contents}}\". Along the very bottom, faint, \"{{footer_line}}\".\n\nInvented brand only, no real manufacturers and no real product names. Every piece of quoted text appears exactly once, spelled exactly as given and never repeated. Backlit late sun with warm colour left in, real stains and creases, no styled perfection.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a table runner and napkins on a laid table shot along the surface",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "BRIONNE",
+    "required": true
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "Cloth that earns its stains",
+    "required": true
+   },
+   {
+    "key": "set_contents",
+    "label": "Set contents",
+    "inputType": "text",
+    "placeholder": "One runner, six napkins / packed in a cotton bag",
+    "required": false
+   },
+   {
+    "key": "runner_colour",
+    "label": "Runner colour",
+    "inputType": "text",
+    "placeholder": "burnt ochre",
+    "required": false
+   },
+   {
+    "key": "fabric_type",
+    "label": "Fabric",
+    "inputType": "text",
+    "placeholder": "loose weave washed linen with a hand rolled hem",
+    "required": false
+   },
+   {
+    "key": "table_material",
+    "label": "Table",
+    "inputType": "text",
+    "placeholder": "scrubbed elm",
+    "required": false
+   },
+   {
+    "key": "footer_line",
+    "label": "Footer line",
+    "inputType": "text",
+    "placeholder": "Wash hot. It only softens.",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "home-furniture-glazed-vase-trio-gloss",
+  "title": "Glazed Vase Trio Gloss",
+  "description": "Three high gloss glazed vases in strong colours on a coloured plinth, deliberately not neutral.",
+  "searchKeywords": [
+   "vase",
+   "ceramic",
+   "glossy glaze",
+   "trio",
+   "colourful decor",
+   "decor",
+   "furniture ad",
+   "still life",
+   "pottery",
+   "home furniture"
+  ],
+  "prompt": "A saturated still life advertisement for three glazed ceramic vases, vertical 4:5.\n\nA shallow set: a plinth of {{plinth_colour}} in front of a wall in {{background_color}}, the two colours deliberately clashing. The three vases stand on the plinth at different depths, shot with a 90mm lens from just above their shoulders. They are thrown stoneware in a {{glaze_finish}}, in {{vase_colours}}, each a different height and profile; one carries a visible throwing ring and a small glaze pool at the foot. Two are empty, one holds a single bare branch. One hard light from the upper right gives each vase a sharp specular highlight and a crisp shadow to the left; the shadows overlap.\n\nText layout: the headline \"{{headline_text}}\" runs across the wall above them in a heavy modern serif. In the upper left, small, \"{{brand_name}}\". Bottom left three short lines giving the heights, reading \"{{height_lines}}\". Bottom right a small solid square button with \"{{cta_text}}\".\n\nInvented brand only, no real manufacturers and no real product names. Every piece of quoted text appears exactly once, spelled exactly as given and never repeated. Hard light with real speculars, glaze that pools and varies, honest kiln marks, and no beige or cream anywhere in the picture.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "three glossy glazed ceramic vases in strong colours on a coloured plinth",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "KILNWORTH",
+    "required": true
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "NOT EVERYTHING HAS TO BE BEIGE",
+    "required": true
+   },
+   {
+    "key": "vase_colours",
+    "label": "Vase colours",
+    "inputType": "text",
+    "placeholder": "oxblood, cobalt and moss green",
+    "required": false
+   },
+   {
+    "key": "glaze_finish",
+    "label": "Glaze finish",
+    "inputType": "text",
+    "placeholder": "high gloss glaze that pools darker in the throwing rings",
+    "required": false
+   },
+   {
+    "key": "plinth_colour",
+    "label": "Plinth colour",
+    "inputType": "text",
+    "placeholder": "bright tangerine",
+    "required": false
+   },
+   {
+    "key": "background_color",
+    "label": "Wall colour",
+    "inputType": "text",
+    "placeholder": "deep violet",
+    "required": false
+   },
+   {
+    "key": "height_lines",
+    "label": "Height lines",
+    "inputType": "text",
+    "placeholder": "34 cm / 26 cm / 19 cm",
+    "required": false
+   },
+   {
+    "key": "cta_text",
+    "label": "Button text",
+    "inputType": "text",
+    "placeholder": "Take all three",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "home-furniture-arch-wall-mirror-brass",
+  "title": "Arch Wall Mirror Brass",
+  "description": "An arched brass framed mirror on a coloured wall, its reflection showing a slice of the room.",
+  "searchKeywords": [
+   "mirror",
+   "arch mirror",
+   "brass frame",
+   "wall decor",
+   "reflection",
+   "decor",
+   "furniture ad",
+   "hallway mirror",
+   "round top",
+   "home furniture"
+  ],
+  "prompt": "An advertisement for an arched wall mirror, vertical 4:5.\n\nA single wall painted {{wall_color}}, nothing else in the shot but a low bench cropped at the bottom edge. The mirror hangs slightly off centre and is photographed straight on with a 50mm lens, the camera deliberately placed so it does not appear in the glass. The frame is {{frame_material}}, {{frame_profile}}. In the reflection you see a slice of the room behind the camera: a window with the light blown out, the corner of a curtain, a plant, no person. The glass has one small bloom of desilvering in the lower corner, left in. Daylight from the left rakes across the wall and gives the frame a bright edge on one side.\n\nText layout: the headline \"{{headline_text}}\" is set inside the reflection itself, in a light sans, so it appears to float in the mirrored room. Outside the frame, upper left, \"{{brand_name}}\". Bottom left a short block of two lines reading \"{{spec_lines}}\". Bottom right, small, \"{{price_text}}\".\n\nInvented brand only, no real manufacturers and no real product names. Every piece of quoted text appears exactly once, spelled exactly as given and never repeated. Real daylight, a genuine reflection with slight distortion and a blown window, brass with fingerprints rather than a chrome shine.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "an arched brass framed mirror on a coloured wall reflecting part of a room",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "LARWOOD",
+    "required": true
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "Borrow the window twice",
+    "required": true
+   },
+   {
+    "key": "frame_material",
+    "label": "Frame material",
+    "inputType": "text",
+    "placeholder": "aged solid brass",
+    "required": false
+   },
+   {
+    "key": "frame_profile",
+    "label": "Frame profile",
+    "inputType": "text",
+    "placeholder": "a narrow rounded profile with a visible seam at the apex",
+    "required": false
+   },
+   {
+    "key": "wall_color",
+    "label": "Wall colour",
+    "inputType": "text",
+    "placeholder": "clay red",
+    "required": false
+   },
+   {
+    "key": "spec_lines",
+    "label": "Spec lines",
+    "inputType": "text",
+    "placeholder": "70 by 110 cm / hangs portrait or leans",
+    "required": false
+   },
+   {
+    "key": "price_text",
+    "label": "Price line",
+    "inputType": "text",
+    "placeholder": "340",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "home-furniture-wall-clock-mustard-crop",
+  "title": "Wall Clock Mustard Crop",
+  "description": "A mid-century wall clock cropped hard against a mustard wall with the time as the headline.",
+  "searchKeywords": [
+   "wall clock",
+   "mid century",
+   "mustard",
+   "crop",
+   "graphic",
+   "decor",
+   "furniture ad",
+   "timepiece",
+   "kitchen clock",
+   "home furniture"
+  ],
+  "prompt": "A graphic advertisement for a wall clock, vertical 4:5.\n\nNothing but a wall painted flat {{wall_color}}, its roller texture just visible. The clock hangs high and far to the right, cropped hard by the right edge of the frame so only two thirds of the dial is in shot, photographed straight on with an 85mm lens. The case is {{case_material}}, the dial a cream dial with slim printed baton markers, the hands {{hand_style}}. It reads {{clock_time}}. Low side light from the left makes the hands throw thin shadows onto the dial and gives the case a crescent of shadow beneath it.\n\nText layout: the headline \"{{headline_text}}\" fills the empty left half in a tall condensed sans, stacked and wrapping so its last part runs under the clock. Under it a thin rule and one line of small type reading \"{{subline_text}}\". Bottom left \"{{brand_name}}\" small. Top left corner, tiny, \"{{eyebrow_text}}\".\n\nInvented brand only, no real manufacturers and no real product names. Every piece of quoted text appears exactly once, spelled exactly as given and never repeated. Real directional light with hand shadows on the dial, a painted wall that is not perfectly flat, no vector cleanliness.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a mid century wall clock cropped by the frame edge on a mustard wall",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "HEPLOW",
+    "required": true
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "SILENT SWEEP, NO TICK",
+    "required": true
+   },
+   {
+    "key": "eyebrow_text",
+    "label": "Eyebrow",
+    "inputType": "text",
+    "placeholder": "FOR THE ROOM YOU WORK IN",
+    "required": false
+   },
+   {
+    "key": "subline_text",
+    "label": "Subline",
+    "inputType": "text",
+    "placeholder": "A quartz movement with no second hand jump. You will not hear it.",
+    "required": false
+   },
+   {
+    "key": "case_material",
+    "label": "Case material",
+    "inputType": "text",
+    "placeholder": "solid walnut with a bevelled rim",
+    "required": false
+   },
+   {
+    "key": "hand_style",
+    "label": "Hands",
+    "inputType": "text",
+    "placeholder": "thin brass hands with a red seconds hand",
+    "required": false
+   },
+   {
+    "key": "wall_color",
+    "label": "Wall colour",
+    "inputType": "text",
+    "placeholder": "mustard yellow",
+    "required": false
+   },
+   {
+    "key": "clock_time",
+    "label": "Time shown",
+    "inputType": "text",
+    "placeholder": "ten past two",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "home-furniture-gallery-frame-set-dark-plaster",
+  "title": "Gallery Frame Set Dark Plaster",
+  "description": "A set of picture frames hung as a small gallery wall on dark plaster, one still leaning.",
+  "searchKeywords": [
+   "picture frames",
+   "gallery wall",
+   "frame set",
+   "dark plaster",
+   "wall decor",
+   "decor",
+   "furniture ad",
+   "art hanging",
+   "composition",
+   "home furniture"
+  ],
+  "prompt": "An advertisement for a set of picture frames, vertical 4:5.\n\nA wall of {{wall_color}} polished plaster with visible trowel movement. Five frames hang in a loose cluster, deliberately not aligned to a grid, and a sixth stands on the floor leaning against the skirting with its backing paper still on. Shot straight on with a 50mm lens from standing height. The frames are {{frame_material}} in {{frame_finish}}, in mixed sizes, all with generous {{mount_style}}. What is inside them is plain: two abstract washes, a photograph of a coastline, a botanical print and one left empty showing the mount only. Warm side light from a lamp at the right gives every frame a hard shadow to the left; a hammer and two picture hooks lie on the floor.\n\nText layout: the headline \"{{headline_text}}\" is set in the empty wall to the left of the cluster in a light serif, set narrow. Under it a small paragraph reading \"{{body_text}}\". Bottom right \"{{brand_name}}\", and beneath it \"{{cta_text}}\" in a thin outlined pill.\n\nInvented brand only, no real manufacturers and no real product names. Every piece of quoted text appears exactly once, spelled exactly as given and never repeated. Real lamp light with hard directional shadows, plaster with genuine trowel texture, dust and tools left in shot.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "five picture frames hung as a loose cluster on a dark plaster wall",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "MERRITT & LOWE",
+    "required": true
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "Hang them badly on purpose",
+    "required": true
+   },
+   {
+    "key": "body_text",
+    "label": "Body text",
+    "inputType": "text",
+    "placeholder": "Six frames in four sizes, cut and joined by hand, with mounts already inside.",
+    "required": false
+   },
+   {
+    "key": "frame_material",
+    "label": "Frame material",
+    "inputType": "text",
+    "placeholder": "solid oak",
+    "required": false
+   },
+   {
+    "key": "frame_finish",
+    "label": "Frame finish",
+    "inputType": "text",
+    "placeholder": "a smoked dark stain",
+    "required": false
+   },
+   {
+    "key": "mount_style",
+    "label": "Mount style",
+    "inputType": "text",
+    "placeholder": "wide off white cotton rag mounts",
+    "required": false
+   },
+   {
+    "key": "wall_color",
+    "label": "Wall colour",
+    "inputType": "text",
+    "placeholder": "deep charcoal green",
+    "required": false
+   },
+   {
+    "key": "cta_text",
+    "label": "Button text",
+    "inputType": "text",
+    "placeholder": "See the set",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "home-furniture-glazed-planter-fern",
+  "title": "Glazed Planter Fern",
+  "description": "A speckled glazed planter with a fern, shot close on a wet windowsill with rain outside.",
+  "searchKeywords": [
+   "planter",
+   "plant pot",
+   "glazed ceramic",
+   "fern",
+   "windowsill",
+   "decor",
+   "furniture ad",
+   "indoor plants",
+   "speckled glaze",
+   "home furniture"
+  ],
+  "prompt": "A close, damp advertisement for a glazed ceramic planter, vertical 4:5.\n\nA windowsill of {{sill_material}}, rain running down the glass behind it, the world outside reduced to a grey blur. The planter sits on the sill just left of centre, photographed with an 85mm lens at sill height. It is thrown stoneware in a {{glaze_style}} in {{planter_colour}}, sitting in a matching saucer with a ring of water around its foot. Out of it spills {{plant_type}}, one frond crossing the window. Grey rain light only, cool and soft, with the wet glaze picking up a broken highlight along the rim; a few drops of water sit on the sill.\n\nText layout: the headline \"{{headline_text}}\" is set on the blurred window area at the top in a light sans, dark against the grey. Lower left, on the sill, small type reads \"{{spec_lines}}\". Bottom right \"{{brand_name}}\" with \"{{detail_line}}\" underneath.\n\nInvented brand only, no real manufacturers and no real product names. Every piece of quoted text appears exactly once, spelled exactly as given and never repeated. Overcast rain light left cool, real glaze speckling and a wet rim, no sunshine and no added glow.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a speckled glazed planter holding a fern on a wet windowsill",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "FERNGATE",
+    "required": true
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "Drainage hole, saucer, done",
+    "required": true
+   },
+   {
+    "key": "planter_colour",
+    "label": "Planter colour",
+    "inputType": "text",
+    "placeholder": "deep teal",
+    "required": false
+   },
+   {
+    "key": "glaze_style",
+    "label": "Glaze style",
+    "inputType": "text",
+    "placeholder": "speckled reactive glaze that breaks paler over the rim",
+    "required": false
+   },
+   {
+    "key": "plant_type",
+    "label": "Plant",
+    "inputType": "text",
+    "placeholder": "a bushy maidenhair fern",
+    "required": false
+   },
+   {
+    "key": "sill_material",
+    "label": "Windowsill",
+    "inputType": "text",
+    "placeholder": "painted timber with chipped paint",
+    "required": false
+   },
+   {
+    "key": "spec_lines",
+    "label": "Spec lines",
+    "inputType": "text",
+    "placeholder": "18 cm across / holds a 15 cm nursery pot",
+    "required": false
+   },
+   {
+    "key": "detail_line",
+    "label": "Detail line",
+    "inputType": "text",
+    "placeholder": "Four sizes, six glazes",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "home-furniture-ceramic-candle-vessel-evening",
+  "title": "Ceramic Candle Vessel Evening",
+  "description": "A scented candle in a ceramic vessel burning on a dark surface, close and low.",
+  "searchKeywords": [
+   "candle",
+   "scented candle",
+   "ceramic vessel",
+   "evening",
+   "flame",
+   "decor",
+   "furniture ad",
+   "home fragrance",
+   "still life",
+   "home furniture"
+  ],
+  "prompt": "An intimate advertisement for a scented candle in a ceramic vessel, vertical 4:5.\n\nA dark room reduced to a {{surface_material}} surface and a wall of {{background_color}} behind it. The candle stands slightly right of centre and is photographed at surface level with a 100mm lens wide open, so the near edge of the vessel is sharp and everything behind melts away. The vessel is {{vessel_finish}} in {{vessel_colour}}, its glaze catching a thin arc of light. The wick is lit and the flame is the only source in the picture, so the wax pool glows amber and the light falls away within a hand's width. A used match and a small brass snuffer lie beside it, and a thread of smoke rises from the match.\n\nText layout: the headline \"{{headline_text}}\" sits in the dark upper left in small light capitals. Beneath it, smaller, the scent notes reading \"{{scent_notes}}\". Bottom right \"{{brand_name}}\", and under it \"{{burn_line}}\". Nothing else in the frame.\n\nInvented brand only, no real manufacturers and no real product names. Every piece of quoted text appears exactly once, spelled exactly as given and never repeated. Candlelight only, warm colour left uncorrected, real smoke and grain in the shadows, no fill light.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a lit scented candle in a ceramic vessel on a dark surface",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "WHITTAKER HOUSE",
+    "required": true
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "BURNS FOR SIXTY HOURS",
+    "required": true
+   },
+   {
+    "key": "scent_notes",
+    "label": "Scent notes",
+    "inputType": "text",
+    "placeholder": "black fig, cedar, a little woodsmoke",
+    "required": false
+   },
+   {
+    "key": "vessel_colour",
+    "label": "Vessel colour",
+    "inputType": "text",
+    "placeholder": "oxblood red",
+    "required": false
+   },
+   {
+    "key": "vessel_finish",
+    "label": "Vessel finish",
+    "inputType": "text",
+    "placeholder": "a matt crackle glaze with a glossy interior",
+    "required": false
+   },
+   {
+    "key": "surface_material",
+    "label": "Surface",
+    "inputType": "text",
+    "placeholder": "dark oiled walnut",
+    "required": false
+   },
+   {
+    "key": "background_color",
+    "label": "Background colour",
+    "inputType": "text",
+    "placeholder": "near black green",
+    "required": false
+   },
+   {
+    "key": "burn_line",
+    "label": "Burn line",
+    "inputType": "text",
+    "placeholder": "Soy and rapeseed wax, cotton wick",
+    "required": false
+   }
+  ]
+ }
+]

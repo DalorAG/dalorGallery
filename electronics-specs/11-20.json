@@ -1,0 +1,804 @@
+[
+ {
+  "slug": "electronics-mini-pc-in-hand-scale",
+  "title": "Mini PC Held In Hand",
+  "description": "A scale poster: a small desktop computer held in one hand against a workshop wall with a port callout.",
+  "searchKeywords": [
+   "mini pc",
+   "small form factor",
+   "desktop computer",
+   "scale",
+   "in hand",
+   "compact",
+   "workstation",
+   "ports",
+   "electronics",
+   "office pc"
+  ],
+  "prompt": "Create a scale poster for a very small desktop computer, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: a hand holds the mini computer up towards the camera, fingers wrapped around the {{device_finish}} case so the size against the palm is unmistakable. Skin looks like skin, with a short nail and a faint ink mark on one knuckle. Behind the hand, softly out of focus, a workshop wall with a pegboard, a coiled network cable and the edge of a monitor. Daylight from a high window on the right and a fluorescent tube overhead give two slightly different colours of light, and the case shows a fingerprint near the top corner. Grain in the background, corners a touch soft.\n\nText layout: the brand name top left in small capitals. \"{{headline_text}}\" runs down the left side in three short lines of heavy type, clear of the hand. Two thin {{accent_color}} leader lines point at the case and read \"{{callout_list}}\". A single line across the bottom carries \"{{spec_chips}}\", and under it in smaller type \"{{footnote_text}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Handheld documentary photography, mixed daylight and tube light, honest skin tone, no retouching.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a hand holding a very small desktop computer up in front of a workshop wall",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "CUBEWORKS",
+    "required": true
+   },
+   {
+    "key": "device_finish",
+    "label": "Case finish",
+    "inputType": "text",
+    "placeholder": "bead blasted dark grey aluminium",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "A WHOLE DESKTOP IN ONE HAND",
+    "required": true
+   },
+   {
+    "key": "callout_list",
+    "label": "Leader line notes",
+    "inputType": "text",
+    "placeholder": "passive vent - four displays",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec line",
+    "inputType": "text",
+    "placeholder": "8 CORE - 32 GB - 2 TB - 0.6 L",
+    "required": false
+   },
+   {
+    "key": "footnote_text",
+    "label": "Footnote",
+    "inputType": "text",
+    "placeholder": "mounts behind any monitor",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "bright cyan",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-tower-pc-glass-panel",
+  "title": "Glass Panel Tower PC",
+  "description": "A build poster: a desktop tower with a glass side panel showing the internals, with a component list column.",
+  "searchKeywords": [
+   "desktop pc",
+   "tower",
+   "glass panel",
+   "custom build",
+   "components",
+   "workstation",
+   "gaming pc",
+   "internals",
+   "electronics",
+   "hardware"
+  ],
+  "prompt": "Create a build poster for a desktop tower with a glass side panel, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the tower stands on the floor beside a desk, photographed from a low three quarter angle so the glass side fills most of the frame. Inside, the components are laid out honestly: a large air cooler, a graphics card sagging a millimetre on its bracket, cables tied back but not perfectly, a strip of {{interior_light}} washing the board. The room is a real room - a skirting board, a power strip with three plugs, a bit of carpet fluff by the front foot. The glass carries a soft uneven reflection of the window behind the camera and one fingerprint near the handle. Grain in the dark interior.\n\nText layout: the brand name sits top right. \"{{headline_text}}\" runs across the top in two lines of wide capitals. Down the right edge a component list in small type reads \"{{component_list}}\", each item on its own line with a leading dash. Bottom left a four part strip carries \"{{spec_chips}}\" in {{accent_color}}.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Ordinary room light plus the case lighting, honest colour, no glow bloom, no studio sweep.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a desktop tower with a glass side panel standing on the floor beside a desk",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "IRONVALE",
+    "required": true
+   },
+   {
+    "key": "interior_light",
+    "label": "Interior lighting",
+    "inputType": "text",
+    "placeholder": "cool white LED",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "BUILT WHERE YOU CAN SEE IT",
+    "required": true
+   },
+   {
+    "key": "component_list",
+    "label": "Component list",
+    "inputType": "text",
+    "placeholder": "12 core cpu - 16 gb card - 64 gb ram - 4 tb ssd - 850 w",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "AIR COOLED - 3 YEAR - BUILT TO ORDER - 28 dB",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "pale mint",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-all-in-one-desktop-office",
+  "title": "All In One Desktop Office",
+  "description": "An office scene poster: a slim all in one computer on a shared desk with a cable free claim and spec bar.",
+  "searchKeywords": [
+   "all in one",
+   "desktop computer",
+   "office",
+   "workplace",
+   "slim pc",
+   "cable free",
+   "business",
+   "monitor pc",
+   "electronics",
+   "workspace"
+  ],
+  "prompt": "Create an office scene poster for a slim all in one desktop computer, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the all in one stands on a shared office desk in a {{office_setting}}, photographed from a standing height at a slight angle. One cable runs from the foot of the stand straight down through a grommet, and nothing else. Around it the desk is used: a keyboard pushed to one side, a mug on a paper coaster, a dying plant, a chair back cutting into the lower corner. Ceiling panel lights above and daylight from the windows behind mix into a slightly green cast on the white desk, and the screen surface picks up the room in dull uneven patches. Faint grain, corners slightly dark.\n\nOn screen: {{screen_image}}.\n\nText layout: brand name upper left. \"{{headline_text}}\" sits at the top right in two lines, right aligned. A single {{accent_color}} line traces the one cable down to the grommet and is labelled \"{{callout_text}}\". Along the bottom, four short chips read \"{{spec_chips}}\", with \"{{footnote_text}}\" beneath in small grey type.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Plain reportage photography in a working office, mixed fluorescent and daylight, honest colour, no gloss floor.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a slim all in one computer standing on a shared office desk with a single cable",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "NORTHILL",
+    "required": true
+   },
+   {
+    "key": "office_setting",
+    "label": "Office setting",
+    "inputType": "text",
+    "placeholder": "open plan office with grey carpet tiles",
+    "required": false
+   },
+   {
+    "key": "screen_image",
+    "label": "What is on the screen",
+    "inputType": "text",
+    "placeholder": "a calendar week view beside an open document",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "ONE CABLE. NOTHING UNDER THE DESK.",
+    "required": true
+   },
+   {
+    "key": "callout_text",
+    "label": "Cable callout",
+    "inputType": "text",
+    "placeholder": "power only",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec chips",
+    "inputType": "text",
+    "placeholder": "27 INCH - 4K - 16 GB - WIFI 7",
+    "required": false
+   },
+   {
+    "key": "footnote_text",
+    "label": "Footnote",
+    "inputType": "text",
+    "placeholder": "height adjustable stand included",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "deep red",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-mechanical-keyboard-switch-macro",
+  "title": "Keyboard Switch Macro",
+  "description": "A component detail poster: a keycap lifted off a mechanical keyboard to show the switch beneath, with callouts.",
+  "searchKeywords": [
+   "mechanical keyboard",
+   "switch",
+   "keycap",
+   "macro",
+   "detail",
+   "typing",
+   "desk",
+   "component",
+   "electronics",
+   "hot swap"
+  ],
+  "prompt": "Create a component detail poster for a mechanical keyboard, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: an extreme close up across the keyboard at keycap height. One {{keycap_color}} keycap has been lifted off and rests upside down in the foreground, slightly out of focus, revealing the bare {{switch_color}} switch stem standing proud of the plate. Dust and one short hair sit between the keys, exactly as they do on a keyboard in use. The rest of the board recedes fast into blur towards the top of the frame. A single desk lamp from the left throws a hard shadow of the switch stem across the plate, the right hand keys falling into grain.\n\nText layout: the brand name sits vertically down the left edge in small spaced capitals. \"{{headline_text}}\" runs across the upper third in two lines, the second line partly hidden behind the blurred keycap. Three {{accent_color}} leader lines point to stem, plate and cap and read \"{{callout_list}}\". A bottom bar carries \"{{spec_chips}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Macro photography with a single hard lamp, very shallow depth of field, real dust, colour straight out of the camera.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a macro of a mechanical keyboard with one keycap removed showing the switch",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "TACTILE ROW",
+    "required": true
+   },
+   {
+    "key": "keycap_color",
+    "label": "Keycap colour",
+    "inputType": "text",
+    "placeholder": "warm sand",
+    "required": false
+   },
+   {
+    "key": "switch_color",
+    "label": "Switch colour",
+    "inputType": "text",
+    "placeholder": "deep violet",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "EVERY KEY COMES APART",
+    "required": true
+   },
+   {
+    "key": "callout_list",
+    "label": "Leader line notes",
+    "inputType": "text",
+    "placeholder": "hot swap socket - steel plate - double shot cap",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec bar",
+    "inputType": "text",
+    "placeholder": "45 g - 2 mm - 80 M PRESSES",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "bright coral",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-mirrorless-camera-top-plate",
+  "title": "Mirrorless Camera Top Plate",
+  "description": "A top down poster: the top plate of a mirrorless camera with its dials labelled like a control map.",
+  "searchKeywords": [
+   "mirrorless camera",
+   "top plate",
+   "dials",
+   "controls",
+   "photography gear",
+   "top down",
+   "camera body",
+   "manual",
+   "electronics",
+   "shutter"
+  ],
+  "prompt": "Create a control map poster of the top plate of a mirrorless camera, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the camera body sits on a {{surface_material}} table and is photographed straight down, filling the upper two thirds of the frame, lens pointing away from the camera so the whole top plate is readable. The body is {{device_finish}} with knurled metal dials, one of them turned slightly off its detent. A lens cap lies beside it and a strap runs out of frame at the lower left. Light comes from a north window, soft and directional, so the knurling catches a thin edge of light and the engraved markings hold a shadow. Real table grain, a crumb near the strap, mild vignetting.\n\nText layout: the brand name in the top left in small capitals. \"{{headline_text}}\" is set once across the very top in a light condensed face. Five thin {{accent_color}} leader lines run from the dials out to labels in the margins reading \"{{dial_labels}}\". Under the body a single strip carries \"{{spec_chips}}\", and \"{{footnote_text}}\" sits bottom right in small type.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Overhead daylight product photography, soft directional window light, honest metal colour, no highlight blowout.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "the top plate of a mirrorless camera photographed straight down on a table",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "ANSGARD",
+    "required": true
+   },
+   {
+    "key": "surface_material",
+    "label": "Table surface",
+    "inputType": "text",
+    "placeholder": "dark walnut",
+    "required": false
+   },
+   {
+    "key": "device_finish",
+    "label": "Body finish",
+    "inputType": "text",
+    "placeholder": "black paint over brass",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "EVERYTHING UNDER A THUMB",
+    "required": true
+   },
+   {
+    "key": "dial_labels",
+    "label": "Dial labels",
+    "inputType": "text",
+    "placeholder": "SHUTTER - ISO - EXPOSURE - DRIVE - REC",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "40 MP - 8 STOP IS - 4K 60 - 510 g",
+    "required": false
+   },
+   {
+    "key": "footnote_text",
+    "label": "Footnote",
+    "inputType": "text",
+    "placeholder": "weather sealed body",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "oxide red",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-camera-lens-exploded-view",
+  "title": "Camera Lens Exploded View",
+  "description": "A technical poster: a prime lens pulled apart into its elements and rings, arranged along one axis on graph paper.",
+  "searchKeywords": [
+   "camera lens",
+   "exploded view",
+   "optics",
+   "technical drawing",
+   "elements",
+   "prime lens",
+   "engineering",
+   "photography gear",
+   "electronics",
+   "cutaway"
+  ],
+  "prompt": "Create a technical exploded view poster of a camera lens, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the parts of a {{focal_length}} prime lens float apart along one horizontal axis across the middle of the frame, photographed straight on: front element, two inner glass groups, the aperture blades open to a star, the focus ring, the barrel and the metal mount. The pieces are real machined metal and coated glass in {{device_finish}}, each casting its own small shadow onto the pale blue graph paper behind. Nothing is perfectly aligned - one group hangs a few millimetres low. Even overhead light from a large softbox, dust visible on the paper, faint grain.\n\nText layout: the brand name top left with \"{{eyebrow_text}}\" underneath in small spaced capitals. \"{{headline_text}}\" runs across the top right in two lines. Thin {{accent_color}} lines connect each floating part to a number in the lower margin, where a key reads \"{{part_list}}\". A bottom strip carries \"{{spec_chips}}\" in monospaced type.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Flat even studio light on a paper background, real dust and machining marks, honest colour, no CGI sheen.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a camera lens taken apart into elements and rings floating along one axis",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "OPTHEIM",
+    "required": true
+   },
+   {
+    "key": "focal_length",
+    "label": "Focal length",
+    "inputType": "text",
+    "placeholder": "35 mm",
+    "required": false
+   },
+   {
+    "key": "device_finish",
+    "label": "Finish",
+    "inputType": "text",
+    "placeholder": "satin black anodising and amber coated glass",
+    "required": false
+   },
+   {
+    "key": "eyebrow_text",
+    "label": "Eyebrow",
+    "inputType": "text",
+    "placeholder": "NINE ELEMENTS, SIX GROUPS",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "TAKEN APART ON PURPOSE",
+    "required": true
+   },
+   {
+    "key": "part_list",
+    "label": "Part key",
+    "inputType": "text",
+    "placeholder": "1 front element  2 focus group  3 aperture  4 rear group  5 mount",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "f1.4 | 11 BLADES | 0.28 m | 67 mm",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "ink blue",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-folding-drone-three-steps",
+  "title": "Folding Drone Sequence",
+  "description": "A three step sequence poster: a folding drone opening from packed to ready across three stacked frames.",
+  "searchKeywords": [
+   "drone",
+   "folding",
+   "sequence",
+   "unfold",
+   "aerial",
+   "camera drone",
+   "steps",
+   "travel",
+   "electronics",
+   "quadcopter"
+  ],
+  "prompt": "Create a three step sequence poster for a folding camera drone, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: three photographs stacked with narrow gaps, all taken from the same raised angle onto the same {{surface_material}}. First frame: the drone folded shut, arms tucked against the body in {{device_finish}}. Second: two hands swinging the front arms out, fingers real and slightly dry, one thumbnail short. Third: the drone standing ready, all four arms out, propellers slack. A rolled up map, a set of keys and some grit lie on the surface throughout, moving a little between frames. Light from a low sun on the left throws long shadows across all three. Grain in the shaded side, corners slightly soft.\n\nText layout: the brand name in the top left of the first frame. \"{{headline_text}}\" runs down the right hand margin, rotated ninety degrees, in one long line of capitals. Each frame carries a small step number and label in {{accent_color}}, together reading \"{{step_labels}}\". A single strip under the last frame reads \"{{spec_chips}}\", with \"{{footnote_text}}\" beneath.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Available light photography, low sun, honest colour, no motion blur trickery.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a folding camera drone shown three times going from packed to ready",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "CORVANE",
+    "required": true
+   },
+   {
+    "key": "surface_material",
+    "label": "Surface",
+    "inputType": "text",
+    "placeholder": "weathered concrete rooftop",
+    "required": false
+   },
+   {
+    "key": "device_finish",
+    "label": "Drone finish",
+    "inputType": "text",
+    "placeholder": "matte pebble grey",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "OPEN IN FOUR SECONDS",
+    "required": true
+   },
+   {
+    "key": "step_labels",
+    "label": "Step labels",
+    "inputType": "text",
+    "placeholder": "01 PACKED - 02 ARMS OUT - 03 READY",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "4K 60 - 34 MIN - 249 g - 10 KM",
+    "required": false
+   },
+   {
+    "key": "footnote_text",
+    "label": "Footnote",
+    "inputType": "text",
+    "placeholder": "folds into a jacket pocket",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "safety orange",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-drone-gimbal-detail",
+  "title": "Drone Gimbal Detail",
+  "description": "A macro poster: the three axis gimbal head of a drone in close up with axis labels and a spec strip.",
+  "searchKeywords": [
+   "drone gimbal",
+   "macro",
+   "stabiliser",
+   "camera head",
+   "three axis",
+   "detail",
+   "aerial camera",
+   "engineering",
+   "electronics",
+   "drone"
+  ],
+  "prompt": "Create a macro detail poster of the gimbal head of a camera drone, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: an extreme close up of the three axis gimbal hanging under the drone body, filling the centre of the frame. The tiny motors, the ribbon cable and the {{lens_finish}} lens are sharp; the body above and the landing arm behind fall away into blur. The parts show honest manufacturing: a moulding line on the yoke, a speck of dust on the lens, a slight scuff on the guard. A single small lamp from the upper left gives one hard highlight along the roll motor, the rest sitting in soft shadow with visible grain. Background is the {{background_setting}}, unfocused.\n\nText layout: the brand name sits small in the lower left. \"{{headline_text}}\" runs across the top in one line of tight capitals. Three thin {{accent_color}} arcs mark the three axes with the labels \"{{axis_labels}}\" set along them. A short strip at the bottom right carries \"{{spec_chips}}\", and \"{{callout_text}}\" sits directly under the gimbal in small type.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Macro photography with one small hard light, shallow focus, real dust and mould lines, honest colour.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "an extreme close up of the three axis gimbal camera under a drone",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "CORVANE",
+    "required": true
+   },
+   {
+    "key": "lens_finish",
+    "label": "Lens finish",
+    "inputType": "text",
+    "placeholder": "green coated glass in a black ring",
+    "required": false
+   },
+   {
+    "key": "background_setting",
+    "label": "Background",
+    "inputType": "text",
+    "placeholder": "a grey workshop bench",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "STEADY ON THREE AXES",
+    "required": true
+   },
+   {
+    "key": "axis_labels",
+    "label": "Axis labels",
+    "inputType": "text",
+    "placeholder": "PAN - TILT - ROLL",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "0.005 DEG - 1 INCH SENSOR",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "swaps without tools",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "pale yellow",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-drawing-tablet-studio-desk",
+  "title": "Drawing Tablet Studio Desk",
+  "description": "An over the shoulder poster: a large tablet with a stylus on an illustrator desk, drawing in progress.",
+  "searchKeywords": [
+   "tablet",
+   "stylus",
+   "drawing",
+   "illustration",
+   "studio desk",
+   "creative",
+   "pen display",
+   "over the shoulder",
+   "electronics",
+   "artist"
+  ],
+  "prompt": "Create an over the shoulder poster for a large drawing tablet, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: seen from just behind and above a seated person, so a shoulder and forearm enter the lower left corner and the tablet lies flat on the desk in front of them, tilted on its stand. The stylus rests in the hand mid stroke. On the desk around it: a jar of real pencils, a torn eraser, a printed reference photo held down by a mug. The tablet is new, the desk is not - the {{desk_material}} is marked with old cuts and paint. A window on the right and a clamp lamp on the left give two light directions, and the tablet glass reflects the room unevenly. Grain in the shadowed corner.\n\nOn screen: {{screen_image}}.\n\nText layout: the brand name sits top right in small capitals. \"{{headline_text}}\" runs across the top left in two lines of light type. A short {{accent_color}} bracket at the stylus tip carries \"{{callout_text}}\". Along the bottom a four part strip reads \"{{spec_chips}}\", with \"{{footnote_text}}\" in small grey type beneath it.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Mixed daylight and lamp light in a working studio, honest colour, visible desk wear, no gloss.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a large drawing tablet on a studio desk seen over the shoulder of the artist",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "INKWELL STUDIO",
+    "required": true
+   },
+   {
+    "key": "desk_material",
+    "label": "Desk material",
+    "inputType": "text",
+    "placeholder": "old pine",
+    "required": false
+   },
+   {
+    "key": "screen_image",
+    "label": "What is on the screen",
+    "inputType": "text",
+    "placeholder": "a half finished ink drawing of a bird",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "THE LINE STARTS WHERE THE NIB DOES",
+    "required": true
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "no lag at the tip",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "16 INCH - 8192 LEVELS - TILT - USB-C",
+    "required": false
+   },
+   {
+    "key": "footnote_text",
+    "label": "Footnote",
+    "inputType": "text",
+    "placeholder": "battery free pen",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "deep green",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-docking-station-port-map",
+  "title": "Docking Station Port Map",
+  "description": "A rear panel poster: a desktop dock photographed from behind with every port labelled along a leader line.",
+  "searchKeywords": [
+   "docking station",
+   "ports",
+   "usb hub",
+   "rear panel",
+   "connections",
+   "thunderbolt",
+   "desk accessory",
+   "port map",
+   "electronics",
+   "hub"
+  ],
+  "prompt": "Create a rear panel poster for a desktop docking station, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the dock stands on end on a {{surface_material}} bench, photographed square on from behind so the whole port panel faces the camera and fills the middle band of the frame. The {{device_finish}} case is new; the bench is not, showing solder burns and a ring from a tin. One short cable is plugged into the top port and curls away out of frame. A single soft lamp above and slightly left gives a gentle gradient across the panel, the machined port cut outs holding small shadows. Faint grain, honest metal colour.\n\nText layout: the brand name top left. \"{{headline_text}}\" runs across the top in a single line of condensed capitals. From each port a thin {{accent_color}} leader line runs left or right to a label, the labels together reading \"{{port_labels}}\". Under the dock a strip carries \"{{spec_chips}}\", and \"{{callout_text}}\" sits bottom right in a small box.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Flat technical product photography on a used bench, one soft lamp, honest colour, no glow.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "the rear port panel of a desktop docking station standing on a workbench",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "PORTHAVEN",
+    "required": true
+   },
+   {
+    "key": "surface_material",
+    "label": "Bench surface",
+    "inputType": "text",
+    "placeholder": "scarred grey workbench",
+    "required": false
+   },
+   {
+    "key": "device_finish",
+    "label": "Case finish",
+    "inputType": "text",
+    "placeholder": "brushed graphite with milled edges",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "ELEVEN WAYS IN",
+    "required": true
+   },
+   {
+    "key": "port_labels",
+    "label": "Port labels",
+    "inputType": "text",
+    "placeholder": "HDMI - USB-C - USB-A - SD - ETHERNET - AUDIO",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "140 W - 2 x 4K - 10 Gbps",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "charges the laptop too",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "bright blue",
+    "required": false
+   }
+  ]
+ }
+]

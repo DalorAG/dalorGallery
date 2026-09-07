@@ -1,0 +1,804 @@
+[
+ {
+  "slug": "electronics-microwave-control-panel",
+  "title": "Microwave Control Panel",
+  "description": "A macro poster: the control panel and dial of a countertop microwave with the programme names labelled.",
+  "searchKeywords": [
+   "microwave",
+   "control panel",
+   "dial",
+   "kitchen appliance",
+   "interface",
+   "programmes",
+   "macro",
+   "countertop",
+   "electronics",
+   "buttons"
+  ],
+  "prompt": "Create a macro interface poster for a countertop microwave, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: framed tight and slightly from the side on the right hand control panel, so the dial and the small display fill the frame and the door glass runs out of focus to the left. The {{panel_finish}} panel shows honest use - a thumb smudge below the dial, a crumb caught in the seam, the printed legends slightly worn on the two most used buttons. One kitchen bulb above and daylight from behind the camera; the brushed surface holds a soft directional sheen rather than a mirror. Grain in the darker left side.\n\nOn the display: {{screen_image}}.\n\nText layout: the brand name sits top left in small capitals. \"{{headline_text}}\" runs across the top right in two lines. Four thin {{accent_color}} ticks around the dial carry the labels \"{{programme_labels}}\". A bottom strip reads \"{{spec_chips}}\" and a small box at the lower left says \"{{callout_text}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Close up available light photography, honest brushed steel and worn print, no gloss retouching.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "the control panel and dial of a countertop microwave seen close up",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "WATTLEY",
+    "required": true
+   },
+   {
+    "key": "panel_finish",
+    "label": "Panel finish",
+    "inputType": "text",
+    "placeholder": "brushed steel with black printed legends",
+    "required": false
+   },
+   {
+    "key": "screen_image",
+    "label": "What is on the display",
+    "inputType": "text",
+    "placeholder": "a green segment readout showing three minutes",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "TURN IT, DO NOT PROGRAMME IT",
+    "required": true
+   },
+   {
+    "key": "programme_labels",
+    "label": "Programme labels",
+    "inputType": "text",
+    "placeholder": "DEFROST - REHEAT - GRILL - AUTO",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "900 W - 25 L - 5 LEVELS",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "one dial, no menu tree",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "signal yellow",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-blender-power-typography",
+  "title": "Blender Power Typography",
+  "description": "A bold poster: a countertop blender in front of an enormous rotated wattage number set behind it.",
+  "searchKeywords": [
+   "blender",
+   "power",
+   "wattage",
+   "typography",
+   "kitchen appliance",
+   "smoothie",
+   "bold poster",
+   "countertop",
+   "electronics",
+   "motor"
+  ],
+  "prompt": "Create a bold typographic poster for a countertop blender, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the blender stands centred on a plain {{background_color}} sweep, jug full of {{jug_contents}}, the {{device_finish}} base catching one hard highlight. The paper sweep is real: the crease where it bends to the floor stays visible and there is a scuff near the front edge. Two studio work lamps, one strong from the left and a weaker fill from the right, so the jug throws a real shadow and the mixture is dense rather than glowing. Faint grain in the background.\n\nText layout: an enormous number and unit reading \"{{power_number}}\" is set rotated ninety degrees, running up the right hand side of the frame in a heavy face, passing behind the blender so the jug covers part of it. The brand name sits small at the top left. \"{{headline_text}}\" runs along the bottom in one line. A short {{accent_color}} strip under it carries \"{{spec_chips}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Studio photography with visible sweep seam and ordinary work lamps, honest colour, no gradient glow.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a countertop blender with a full jug standing on a plain studio sweep",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "VORTHAM",
+    "required": true
+   },
+   {
+    "key": "background_color",
+    "label": "Background colour",
+    "inputType": "text",
+    "placeholder": "deep slate grey",
+    "required": false
+   },
+   {
+    "key": "jug_contents",
+    "label": "Jug contents",
+    "inputType": "text",
+    "placeholder": "thick raspberry smoothie",
+    "required": false
+   },
+   {
+    "key": "device_finish",
+    "label": "Base finish",
+    "inputType": "text",
+    "placeholder": "gunmetal with a knurled dial",
+    "required": false
+   },
+   {
+    "key": "power_number",
+    "label": "Big number",
+    "inputType": "text",
+    "placeholder": "1500 W",
+    "required": true
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "ICE DOES NOT ARGUE",
+    "required": true
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "2 L - 6 BLADES - 10 SPEEDS",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "hot pink",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-kettle-colour-variants",
+  "title": "Kettle Colour Variants",
+  "description": "A variant row poster: the same temperature control kettle photographed in four colourways side by side.",
+  "searchKeywords": [
+   "kettle",
+   "colour variants",
+   "range",
+   "kitchen appliance",
+   "temperature control",
+   "line up",
+   "colours",
+   "countertop",
+   "electronics",
+   "choice"
+  ],
+  "prompt": "Create a colour variant poster for a temperature control kettle, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: four identical kettles stand in a row on a long {{shelf_material}} shelf, each in a different colourway - {{colour_list}} - all facing the same way with their handles at the same angle except the third, which is turned very slightly. Each has its small temperature display lit. The shelf is real wood with a knot and a water ring; the wall behind is plain painted plaster with a filled screw hole. One softbox above and slightly front, so each body shows a soft vertical highlight and its own shadow on the shelf. Grain in the wall.\n\nText layout: the brand name sits centred at the top. \"{{headline_text}}\" runs directly beneath it in one line of light spaced capitals. Under each kettle a small name label sits on the shelf edge, together reading \"{{variant_labels}}\". A bottom strip carries \"{{spec_chips}}\", and a short {{accent_color}} underline marks \"{{callout_text}}\" at the lower right.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Even retail product photography on a real shelf, one soft light, honest paint colours, no gradient background.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "four identical kettles in different colours standing in a row on a wooden shelf",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "BREWSTONE",
+    "required": true
+   },
+   {
+    "key": "shelf_material",
+    "label": "Shelf material",
+    "inputType": "text",
+    "placeholder": "oiled ash",
+    "required": false
+   },
+   {
+    "key": "colour_list",
+    "label": "Colourways",
+    "inputType": "text",
+    "placeholder": "cream, olive, oxblood and slate",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "PICK THE ONE THAT SUITS THE KITCHEN",
+    "required": true
+   },
+   {
+    "key": "variant_labels",
+    "label": "Variant labels",
+    "inputType": "text",
+    "placeholder": "CREAM - OLIVE - OXBLOOD - SLATE",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "1.7 L - 5 TEMPS - KEEP WARM - 3 KW",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "same price, any colour",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "deep olive",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-washing-machine-laundry-room",
+  "title": "Washing Machine Laundry Room",
+  "description": "A laundry room poster: a front loading washing machine mid cycle with a programme dial callout.",
+  "searchKeywords": [
+   "washing machine",
+   "laundry",
+   "front loader",
+   "programme",
+   "appliance",
+   "utility room",
+   "spin",
+   "household",
+   "electronics",
+   "wash cycle"
+  ],
+  "prompt": "Create a laundry room poster for a front loading washing machine, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the machine stands under a worktop in a narrow utility room, photographed from a crouch so the drum window is at eye level. The drum is turning, the washing inside caught with natural blur behind wet glass. The front in {{device_finish}} is new; the room is ordinary - a basket of clothes on the floor, a bottle of detergent with a drip down the side, a radiator pipe in the corner, a slightly loose skirting board. Light is one ceiling bulb and grey daylight from a small window; the steel door ring catches a broken highlight. Grain in the shadow under the worktop.\n\nText layout: the brand name sits top right. \"{{headline_text}}\" runs across the upper left in two lines of condensed capitals. A short {{accent_color}} leader points at the programme dial with the note \"{{callout_text}}\". A remaining time readout \"{{time_value}}\" sits in a small box at the display. A bottom strip carries \"{{spec_chips}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Plain documentary photography in a real utility room, one bulb and grey daylight, honest wear, no gloss floor.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a front loading washing machine mid cycle under a worktop in a utility room",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "LAUNDRESS HALL",
+    "required": true
+   },
+   {
+    "key": "device_finish",
+    "label": "Front finish",
+    "inputType": "text",
+    "placeholder": "white steel with a dark glass door",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "THE QUIET ONE IN THE HOUSE",
+    "required": true
+   },
+   {
+    "key": "callout_text",
+    "label": "Dial callout",
+    "inputType": "text",
+    "placeholder": "fourteen programmes, four you use",
+    "required": false
+   },
+   {
+    "key": "time_value",
+    "label": "Time readout",
+    "inputType": "text",
+    "placeholder": "0:47",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "9 KG - 1400 RPM - 48 dB - A",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "strong blue",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-fridge-open-door-interior",
+  "title": "Fridge With The Door Open",
+  "description": "A kitchen poster: a tall fridge with the door open and the interior lit, with zone labels down the shelves.",
+  "searchKeywords": [
+   "refrigerator",
+   "fridge",
+   "open door",
+   "kitchen",
+   "cooling",
+   "shelves",
+   "food storage",
+   "appliance",
+   "electronics",
+   "interior light"
+  ],
+  "prompt": "Create a kitchen poster for a tall refrigerator with its door open, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the fridge stands in a corner of a kitchen at night with the door swung open towards the camera, the interior light throwing a bright wedge across the floor tiles. The shelves hold real food: a half used lemon, a jar with the label peeling, milk, a box of eggs with one missing, a bag of salad. The {{device_finish}} door is new, the tiles are old and one is cracked. The only other light is a small under cabinet strip; the rest of the kitchen falls into grainy shadow.\n\nText layout: the brand name sits top left. \"{{headline_text}}\" runs down the right hand margin in three short lines, clear of the open door. Three fine {{accent_color}} leaders point into the interior at the shelf, drawer and door bin with the labels \"{{zone_labels}}\". A bottom strip carries \"{{spec_chips}}\", and \"{{callout_text}}\" sits under it in small type.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Available light night photography lit by the appliance itself, honest food and tile texture, no HDR, no bloom.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a tall refrigerator standing open at night with its interior light spilling onto the floor",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "COLDMARCH",
+    "required": true
+   },
+   {
+    "key": "device_finish",
+    "label": "Door finish",
+    "inputType": "text",
+    "placeholder": "soft matte graphite steel",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "COLD WHERE IT SHOULD BE",
+    "required": true
+   },
+   {
+    "key": "zone_labels",
+    "label": "Zone labels",
+    "inputType": "text",
+    "placeholder": "CHILL SHELF - CRISPER - DOOR BIN",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "380 L - NO FROST - 35 dB - A++",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "holds temperature for 14 hours without power",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "ice blue",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-dishwasher-night-cycle",
+  "title": "Dishwasher Night Cycle",
+  "description": "A dark kitchen poster: a dishwasher running at night with its floor beam and a noise level callout.",
+  "searchKeywords": [
+   "dishwasher",
+   "night cycle",
+   "quiet",
+   "kitchen",
+   "appliance",
+   "beam",
+   "eco",
+   "household",
+   "electronics",
+   "washing up"
+  ],
+  "prompt": "Create a night kitchen poster for a built in dishwasher, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: a dark kitchen after everyone has gone to bed. The dishwasher is running behind a {{cabinet_finish}} front, and its small projected time beam falls as a red figure on the floor tiles in front of it. On the worktop above: a single glass left out, a folded cloth, a bowl of fruit half in shadow. The only other light is the street lamp through the window, blue and uneven. The floor shows real crumbs and a scuff by the plinth. Heavy grain in the shadows, colour straight out of the camera, no colour grading.\n\nText layout: the brand name sits bottom right in small capitals. \"{{headline_text}}\" runs across the upper left in two lines of light type. The projected floor figure reads \"{{time_value}}\". A small {{accent_color}} box beside the machine carries the noise level \"{{noise_value}}\". A thin bottom strip reads \"{{spec_chips}}\", with \"{{callout_text}}\" underneath in small type.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Long exposure available light photography at night, street lamp colour, honest grain, no glow effects.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a built in dishwasher running at night in a dark kitchen with a time beam on the floor",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "STILLBROOK",
+    "required": true
+   },
+   {
+    "key": "cabinet_finish",
+    "label": "Cabinet front",
+    "inputType": "text",
+    "placeholder": "pale green painted timber",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "IT WORKS WHILE YOU SLEEP",
+    "required": true
+   },
+   {
+    "key": "time_value",
+    "label": "Projected time",
+    "inputType": "text",
+    "placeholder": "1:12",
+    "required": false
+   },
+   {
+    "key": "noise_value",
+    "label": "Noise level",
+    "inputType": "text",
+    "placeholder": "39 dB",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "14 PLACES - ECO 50 - HALF LOAD",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "opens its door to dry",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "deep red",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-power-station-campsite",
+  "title": "Portable Power Station",
+  "description": "An outdoor poster: a portable power station running lights and a laptop at a campsite, with a load readout.",
+  "searchKeywords": [
+   "power station",
+   "portable battery",
+   "off grid",
+   "camping",
+   "solar",
+   "backup power",
+   "outdoor",
+   "inverter",
+   "electronics",
+   "energy"
+  ],
+  "prompt": "Create an outdoor poster for a portable power station, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the unit sits on a folding table at a quiet campsite beside a hedge in the last light of the day, its display lit. Two cables run out of it: one to a string of lights over the awning, one to a laptop on the table beside a flask and a wound up extension lead. The case in {{device_finish}} is new but already has grass on the feet and one scratch on the handle. Sky light is fading blue, the string lights warm, so the case takes two colours. Grain in the darker background, corners slightly soft.\n\nOn the display: {{screen_image}}.\n\nText layout: the brand name top left. \"{{headline_text}}\" runs across the top right in two lines of capitals. Two thin {{accent_color}} leaders follow the cables to labels reading \"{{load_labels}}\". A bottom strip carries \"{{spec_chips}}\", and \"{{callout_text}}\" sits in a small box at the lower left.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Available light photography at dusk, mixed daylight and warm bulbs, honest colour, no glow.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a portable power station on a folding table at a campsite powering lights and a laptop",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "AMPERGROVE",
+    "required": true
+   },
+   {
+    "key": "device_finish",
+    "label": "Case finish",
+    "inputType": "text",
+    "placeholder": "sand grey with a black handle",
+    "required": false
+   },
+   {
+    "key": "screen_image",
+    "label": "What is on the display",
+    "inputType": "text",
+    "placeholder": "a battery bar at 74 percent and a load of 180 watts",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "A SOCKET WHERE THERE IS NONE",
+    "required": true
+   },
+   {
+    "key": "load_labels",
+    "label": "Cable labels",
+    "inputType": "text",
+    "placeholder": "LIGHTS 24 W - LAPTOP 60 W",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "1200 Wh - 1800 W - SOLAR IN - 11 KG",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "charges to 80 percent in an hour",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "bright lime",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-3d-printer-mid-print",
+  "title": "3D Printer Mid Print",
+  "description": "A workshop poster: a desktop 3D printer part way through a print with layer height and progress labels.",
+  "searchKeywords": [
+   "3d printer",
+   "fdm",
+   "workshop",
+   "printing",
+   "layers",
+   "maker",
+   "prototype",
+   "desktop printer",
+   "electronics",
+   "filament"
+  ],
+  "prompt": "Create a workshop poster for a desktop 3D printer, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the printer sits on a workbench part way through a print, photographed from slightly above and to the right so the nozzle and the half finished {{printed_object}} in {{filament_color}} are both clear. Fine stringing hangs off one corner of the part and a small blob of purged filament sits on the bed edge. The bench is a real bench: a spool with the end tucked into its hole, a pair of side cutters, a coffee ring, a scattering of trimmed supports. One work lamp from the left and a window behind; the frame extrusions take a dull sheen. Grain in the shadows.\n\nText layout: the brand name top left with \"{{eyebrow_text}}\" beneath in small spaced capitals. \"{{headline_text}}\" runs down the right margin, rotated, in one line. Two {{accent_color}} leaders point at the nozzle and the part with the notes \"{{callout_list}}\". A bottom strip carries \"{{spec_chips}}\" in monospaced type.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Plain workshop photography, one work lamp plus daylight, honest plastic and swarf, no glow.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a desktop 3d printer part way through printing a part on a workbench",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "LAYERWRIGHT",
+    "required": true
+   },
+   {
+    "key": "printed_object",
+    "label": "Printed part",
+    "inputType": "text",
+    "placeholder": "bracket with an open lattice",
+    "required": false
+   },
+   {
+    "key": "filament_color",
+    "label": "Filament colour",
+    "inputType": "text",
+    "placeholder": "muted teal",
+    "required": false
+   },
+   {
+    "key": "eyebrow_text",
+    "label": "Eyebrow",
+    "inputType": "text",
+    "placeholder": "BUILT ONE LINE AT A TIME",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "THE FIRST LAYER DECIDES",
+    "required": true
+   },
+   {
+    "key": "callout_list",
+    "label": "Leader notes",
+    "inputType": "text",
+    "placeholder": "0.2 mm layer - hardened nozzle",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "250 x 250 | 300 C | AUTO LEVEL",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "bright orange",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-office-laser-printer-tray",
+  "title": "Office Laser Printer",
+  "description": "An office poster: a laser printer with the paper tray open mid job, with page rate and tray labels.",
+  "searchKeywords": [
+   "laser printer",
+   "office",
+   "paper tray",
+   "printing",
+   "duplex",
+   "workgroup",
+   "pages per minute",
+   "office equipment",
+   "electronics",
+   "toner"
+  ],
+  "prompt": "Create an office poster for a workgroup laser printer, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the printer stands on a low cabinet in a corridor corner of an office, photographed from standing height at a slight angle. The lower paper tray is pulled open showing a stack of paper with the top sheet slightly fanned, and three printed pages lie in the output tray, the top one askew. The shell in {{device_finish}} is new; the surroundings are not - a noticeboard with a curling sheet, a bin with a paper cup in it, a scuffed skirting. Ceiling panel light plus daylight from the end of the corridor gives a slight green cast. Grain in the shadow behind the cabinet.\n\nText layout: the brand name sits bottom left. \"{{headline_text}}\" runs across the top in two lines of condensed capitals. A {{accent_color}} bracket follows the open tray with the label \"{{tray_label}}\". A page rate figure \"{{rate_value}}\" sits in a small box at the upper right. A bottom strip carries \"{{spec_chips}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Plain reportage photography in a working office, mixed panel light and daylight, honest plastic and paper.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a workgroup laser printer with the paper tray pulled open in an office corner",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "QUIREHOUSE",
+    "required": true
+   },
+   {
+    "key": "device_finish",
+    "label": "Shell finish",
+    "inputType": "text",
+    "placeholder": "warm grey plastic with a dark trim",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "NOBODY QUEUES AT THIS ONE",
+    "required": true
+   },
+   {
+    "key": "tray_label",
+    "label": "Tray label",
+    "inputType": "text",
+    "placeholder": "550 SHEETS",
+    "required": false
+   },
+   {
+    "key": "rate_value",
+    "label": "Page rate",
+    "inputType": "text",
+    "placeholder": "42 PPM",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "DUPLEX - A4 - NETWORK - 1200 DPI",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "deep purple",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-digital-piano-key-macro",
+  "title": "Digital Piano Key Macro",
+  "description": "A macro poster: the keys and control strip of a digital piano at a low angle with voice labels.",
+  "searchKeywords": [
+   "digital piano",
+   "keyboard",
+   "keys",
+   "macro",
+   "music",
+   "weighted action",
+   "voices",
+   "instrument",
+   "electronics",
+   "practice"
+  ],
+  "prompt": "Create a macro poster for a digital piano, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the camera sits almost level with the keys at the left end of the instrument, so the white keys run away sharply into blur and the {{key_finish}} surface of the nearest keys is fully readable. Two keys are pressed by a hand entering the frame at the far end, out of focus. Above the keys a slim control strip with a small display and two sliders. The room is a real front room: a music book propped open with a dog eared corner, a mug ring on the piano lid, a radiator behind. One window light from the left and a lamp behind; grain in the dark space under the keys.\n\nText layout: the brand name sits top right in small capitals. \"{{headline_text}}\" runs across the top left in two lines of light type. Three {{accent_color}} ticks along the control strip carry the labels \"{{voice_labels}}\". A short leader points at the nearest key with the note \"{{callout_text}}\". A bottom strip carries \"{{spec_chips}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Low angle macro photography with available light, very shallow focus, honest key wear and dust, no gloss retouching.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "the keys of a digital piano seen from key level running away into blur",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "FELTMORE",
+    "required": true
+   },
+   {
+    "key": "key_finish",
+    "label": "Key finish",
+    "inputType": "text",
+    "placeholder": "matte ivory textured plastic",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "HEAVY AT THE BOTTOM, LIGHT AT THE TOP",
+    "required": true
+   },
+   {
+    "key": "voice_labels",
+    "label": "Voice labels",
+    "inputType": "text",
+    "placeholder": "GRAND - UPRIGHT - RHODES",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "graded hammer action",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "88 KEYS - 3 PEDALS - 256 NOTE - USB",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "warm brass",
+    "required": false
+   }
+  ]
+ }
+]

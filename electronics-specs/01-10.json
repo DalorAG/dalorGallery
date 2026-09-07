@@ -1,0 +1,769 @@
+[
+ {
+  "slug": "electronics-oled-tv-living-room-launch",
+  "title": "Living Room OLED Launch",
+  "description": "A calm launch poster: a large wall mounted television in a lived in living room with a spec chip row.",
+  "searchKeywords": [
+   "television",
+   "oled tv",
+   "launch",
+   "home cinema",
+   "smart tv",
+   "living room",
+   "product launch",
+   "electronics",
+   "4k",
+   "display"
+  ],
+  "prompt": "Create a calm product launch poster for a large wall mounted television, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: a {{screen_size}} flat television hangs on a plastered living room wall above a low walnut sideboard. The room is real and lived in - a woven basket leaning against the sideboard, a paperback left face down, a picture frame further along the wall hanging very slightly crooked. The set itself is brand new and unmarked, the bezel a thin dark line. Evening light from a window on the left mixes with a floor lamp on the right, so the panel reflects a broken uneven picture of the room instead of a clean studio highlight. Faint grain sits in the shadows and the corners fall off a little, the way a photograph taken by a person with a camera does.\n\nOn screen: {{screen_image}}.\n\nText layout: the brand name small in the upper left. Across the lower third \"{{headline_text}}\" in wide light capitals over two lines, clear of the television. Beneath it a hairline rule and a row of four short specification chips reading \"{{spec_chips}}\". One small {{accent_color}} callout line points at the panel edge and reads \"{{callout_text}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Colour straight out of the camera, ordinary domestic light, no colour grading.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a large thin television hanging on a living room wall above a walnut sideboard",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "ELDERWICK",
+    "required": true
+   },
+   {
+    "key": "screen_size",
+    "label": "Screen size",
+    "inputType": "text",
+    "placeholder": "65 inch",
+    "required": false
+   },
+   {
+    "key": "screen_image",
+    "label": "What is on the screen",
+    "inputType": "text",
+    "placeholder": "a slow motion shot of blue ink unfurling in water",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "THE ROOM DISAPPEARS",
+    "required": true
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec chips",
+    "inputType": "text",
+    "placeholder": "4K - 120Hz - HDR - 10 BIT",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "4 mm panel",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "warm amber",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-tv-family-three-sizes",
+  "title": "Television Family Line Up",
+  "description": "A showroom line up of one television in three screen sizes with size labels and a shared spec bar.",
+  "searchKeywords": [
+   "tv range",
+   "product family",
+   "screen sizes",
+   "showroom",
+   "television",
+   "line up",
+   "comparison",
+   "smart tv",
+   "retail poster",
+   "electronics"
+  ],
+  "prompt": "Create a showroom line up poster for one television family in three screen sizes, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: three televisions of the same design stand side by side on a low {{platform_material}} plinth, staggered in depth so the largest sits furthest left and slightly back, the smallest closest to the camera on the right. The showroom floor is polished concrete with real scuffs and a faint trolley mark, the back wall painted {{wall_color}}. Two overhead work lights throw soft double shadows and the seam where the wall meets the floor stays visible. Each panel shows the same still frame of {{screen_image}}, dimmed slightly on the sets further back.\n\nText layout: the brand name centred at the top in restrained capitals. \"{{headline_text}}\" sits directly under it in a heavier weight. A small size label floats above each set, the three together reading \"{{size_labels}}\". Across the bottom a single spec bar carries \"{{spec_chips}}\" separated by thin vertical rules.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Straightforward retail photography, even light, honest colour, mild lens distortion at the edges.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "three televisions of the same model in different sizes standing on a low showroom plinth",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "ALDERTON",
+    "required": true
+   },
+   {
+    "key": "platform_material",
+    "label": "Plinth material",
+    "inputType": "text",
+    "placeholder": "matte charcoal",
+    "required": false
+   },
+   {
+    "key": "wall_color",
+    "label": "Wall colour",
+    "inputType": "text",
+    "placeholder": "soft slate grey",
+    "required": false
+   },
+   {
+    "key": "screen_image",
+    "label": "What is on the screens",
+    "inputType": "text",
+    "placeholder": "an aerial view of a turquoise river cutting through dark rock",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "ONE PANEL, THREE ROOMS",
+    "required": true
+   },
+   {
+    "key": "size_labels",
+    "label": "Size labels",
+    "inputType": "text",
+    "placeholder": "55 - 65 - 75",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec bar",
+    "inputType": "text",
+    "placeholder": "MINI LED - 144Hz - HDR - WIFI 7",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-ultra-short-throw-projector",
+  "title": "Short Throw Projector Console",
+  "description": "A living room poster: an ultra short throw projector on a console casting a picture onto the wall behind it.",
+  "searchKeywords": [
+   "projector",
+   "ultra short throw",
+   "home cinema",
+   "beamer",
+   "living room",
+   "projection",
+   "av",
+   "big screen",
+   "electronics",
+   "laser projector"
+  ],
+  "prompt": "Create a home cinema poster for an ultra short throw laser projector, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: a long low projector in {{device_finish}} sits on a media console pushed almost against the wall, throwing a bright rectangle of {{projection_image}} up the wall behind it. The room is dim but not theatrical: a reading lamp still burns in the corner, a mug and a remote lie on the console, the rug shows a fold where it was rolled. Light spill from the projected picture washes the wall and the top of the console, the lens housing catching a narrow reflection. Grain in the dark corners, colour straight out of the camera.\n\nText layout: the brand name in the top left corner. Down the left edge, set vertically in small spaced capitals, sits \"{{eyebrow_text}}\". The headline \"{{headline_text}}\" runs across the bottom in two lines of tight sans serif, kept off the projected rectangle. A four part specification strip below it reads \"{{spec_chips}}\". A thin leader line from the projector body carries the note \"{{callout_text}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Available light photography, warm domestic tungsten mixed with the cool projector beam, no colour grading.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a long low ultra short throw projector on a media console casting a picture up the wall",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "LUMEHALL",
+    "required": true
+   },
+   {
+    "key": "device_finish",
+    "label": "Projector finish",
+    "inputType": "text",
+    "placeholder": "pale grey fabric and brushed aluminium",
+    "required": false
+   },
+   {
+    "key": "projection_image",
+    "label": "Projected picture",
+    "inputType": "text",
+    "placeholder": "a wide desert road at sunrise",
+    "required": false
+   },
+   {
+    "key": "eyebrow_text",
+    "label": "Side label",
+    "inputType": "text",
+    "placeholder": "NEW FOR THE LIVING ROOM",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "A CINEMA WITH NO CEILING MOUNT",
+    "required": true
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "4K - 3000 LUMEN - 100 INCH - LASER",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "20 cm from the wall",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-portable-projector-campsite",
+  "title": "Portable Projector Outdoors",
+  "description": "A night scene poster: a small battery projector on a tripod throwing a film onto a stretched sheet outdoors.",
+  "searchKeywords": [
+   "portable projector",
+   "outdoor cinema",
+   "battery projector",
+   "camping",
+   "night",
+   "tripod",
+   "mini beamer",
+   "movie night",
+   "electronics",
+   "travel"
+  ],
+  "prompt": "Create an outdoor night poster for a small battery powered projector, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: a compact cube projector in {{device_color}} stands on a light aluminium tripod in the foreground, throwing a picture onto a bedsheet stretched between two trees at {{location_setting}}. The sheet sags a little at one corner and the projected image bends with it. Two camp chairs sit half in frame, a cool box beside them. Real night: the sky is not black but deep blue, the beam is visible only faintly in the air, a head torch left on the grass adds a small warm pool of light. Sensor grain in the sky, slightly soft corners.\n\nText layout: the brand name bottom left above a thin rule. \"{{headline_text}}\" sits in the upper left in medium weight capitals across two lines against the open sky, clear of the sheet. Under the headline three short chips read \"{{spec_chips}}\". At the lower right a bracketed callout says \"{{callout_text}}\" in {{accent_color}}.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Long exposure available light photography on a tripod, honest night colour, no glowing edges.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a small cube projector on a tripod projecting onto a sheet stretched between two trees",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "NOCTA FIELD",
+    "required": true
+   },
+   {
+    "key": "device_color",
+    "label": "Projector colour",
+    "inputType": "text",
+    "placeholder": "sand beige with a black lens ring",
+    "required": false
+   },
+   {
+    "key": "location_setting",
+    "label": "Setting",
+    "inputType": "text",
+    "placeholder": "the edge of a mown meadow after dusk",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "THE SCREEN GOES WHERE YOU GO",
+    "required": true
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec chips",
+    "inputType": "text",
+    "placeholder": "1080p - 4H BATTERY - 1.2 KG",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "fits one hand",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "pale lime",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-ultrawide-monitor-desk-setup",
+  "title": "Ultrawide Monitor Desk",
+  "description": "A desk poster: a curved ultrawide monitor photographed from a raised angle with a vertical spec stack.",
+  "searchKeywords": [
+   "monitor",
+   "ultrawide",
+   "curved display",
+   "desk setup",
+   "gaming monitor",
+   "workstation",
+   "screen",
+   "pc",
+   "electronics",
+   "refresh rate"
+  ],
+  "prompt": "Create a desk poster for a curved ultrawide monitor, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the monitor stands on a {{desk_material}} desk, photographed from a raised three quarter angle so the curve of the panel is obvious. The desk is used: a coiled cable clipped to the back edge, a notebook with a pen across it, a coffee ring near the corner, a cable passing through a grommet. The monitor itself is new, its stand unmarked. A window out of frame on the left gives the main light, a small desk lamp fills the right, and the black bezel picks up the uneven shapes of the room rather than a clean gradient. Grain in the shadow under the desk.\n\nOn screen: {{screen_image}}.\n\nText layout: brand name upper right in small capitals. \"{{headline_text}}\" runs along the top left in two tight lines. A vertical stack of four short specification chips reading \"{{spec_chips}}\" sits down the right edge, each on its own line. Bottom left a single {{accent_color}} underline carries \"{{callout_text}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Natural desk light, honest colour, mild barrel distortion, focus falling off toward the far end of the desk.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a curved ultrawide monitor on a wooden desk seen from a raised angle",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "ORVEL",
+    "required": true
+   },
+   {
+    "key": "desk_material",
+    "label": "Desk material",
+    "inputType": "text",
+    "placeholder": "pale oak",
+    "required": false
+   },
+   {
+    "key": "screen_image",
+    "label": "What is on the screen",
+    "inputType": "text",
+    "placeholder": "a colour grading timeline with a wide landscape clip",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "WIDER THAN THE WORK",
+    "required": true
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec chips",
+    "inputType": "text",
+    "placeholder": "34 INCH / 240Hz / 1ms / USB-C",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "one cable to the laptop",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "electric blue",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-reference-monitor-calibration",
+  "title": "Reference Monitor Calibration",
+  "description": "A technical poster: a colour reference monitor with a calibration probe on the panel and a measured value strip.",
+  "searchKeywords": [
+   "reference monitor",
+   "colour accuracy",
+   "calibration",
+   "studio display",
+   "post production",
+   "probe",
+   "technical",
+   "professional monitor",
+   "electronics",
+   "colour grading"
+  ],
+  "prompt": "Create a technical poster for a colour reference monitor, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: a matte finish reference monitor faces the camera almost square on in a small grading suite painted neutral grey. A calibration probe hangs on its cable against the centre of the panel, its rubber hood pressed to the glass. On the desk below sit a printed colour chart with a fingerprint on its edge and a stack of drives. The room light is low and even, from a shaded work lamp, and the surround of the panel picks up a dull uneven sheen rather than a mirror reflection. Faint grain, colour as measured, no grading.\n\nOn screen: {{screen_image}} behind the probe.\n\nText layout: the brand name sits in the upper left with \"{{eyebrow_text}}\" underneath in small letter spaced capitals. The headline \"{{headline_text}}\" runs across the middle in a narrow condensed face, interrupted by the probe cable. Along the bottom a measured value strip reads \"{{spec_chips}}\" in monospaced type, each value in its own cell. A short {{accent_color}} bracket at the lower right marks \"{{callout_text}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Plain documentary photography of a working room, even practical light, honest colour.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a reference monitor with a calibration probe hanging against the panel in a grey grading room",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "OSTREL",
+    "required": true
+   },
+   {
+    "key": "eyebrow_text",
+    "label": "Eyebrow",
+    "inputType": "text",
+    "placeholder": "MEASURED, NOT CLAIMED",
+    "required": false
+   },
+   {
+    "key": "screen_image",
+    "label": "What is on the screen",
+    "inputType": "text",
+    "placeholder": "a full screen field of graduated grey patches",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "TRUST THE PANEL",
+    "required": true
+   },
+   {
+    "key": "spec_chips",
+    "label": "Value strip",
+    "inputType": "text",
+    "placeholder": "DELTA E 1 | 1000 NITS | 12 BIT | 4K",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "factory report in the box",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "signal orange",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-portable-monitor-travel-kit",
+  "title": "Portable Monitor Travel Kit",
+  "description": "A top down flat lay: a portable monitor with its folio stand, cable and laptop laid out as a travel kit.",
+  "searchKeywords": [
+   "portable monitor",
+   "flat lay",
+   "travel kit",
+   "second screen",
+   "usb-c display",
+   "top down",
+   "laptop",
+   "mobile office",
+   "electronics",
+   "knolling"
+  ],
+  "prompt": "Create a top down flat lay poster for a portable travel monitor, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: shot straight down onto a {{surface_material}} table. The portable monitor lies in the centre, its folio cover folded back beside it. Around it, laid out in a loose grid rather than a perfect one: a short braided cable coiled once, a laptop with the lid half open, a passport, a pencil, a pair of glasses with a smudge on one lens. The table has real marks and a chipped edge in the lower corner. Light comes from a window at the top of the frame, so every shadow falls towards the viewer and one object sits slightly out of alignment. Sensor grain visible on the dark cable.\n\nOn screen: {{screen_image}}.\n\nText layout: the brand name top left. \"{{headline_text}}\" fills the upper right corner in two lines of light capitals. Three numbered callouts, set in {{accent_color}}, sit beside the monitor, the cable and the cover reading \"{{callout_list}}\". Along the bottom edge a thin bar carries \"{{spec_chips}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Plain overhead product photography on a real table, daylight, unretouched surfaces.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a portable monitor and travel accessories laid out on a table seen from directly above",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "FOLDWELL",
+    "required": true
+   },
+   {
+    "key": "surface_material",
+    "label": "Table surface",
+    "inputType": "text",
+    "placeholder": "scratched pale birch",
+    "required": false
+   },
+   {
+    "key": "screen_image",
+    "label": "What is on the screen",
+    "inputType": "text",
+    "placeholder": "a spreadsheet next to a video call window",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "THE SECOND SCREEN THAT PACKS FLAT",
+    "required": true
+   },
+   {
+    "key": "callout_list",
+    "label": "Numbered callouts",
+    "inputType": "text",
+    "placeholder": "01 magnetic folio - 02 one cable - 03 8 mm thin",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec bar",
+    "inputType": "text",
+    "placeholder": "15.6 INCH - 1080p - USB-C - 640 g",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "deep teal",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-ultrabook-edge-profile",
+  "title": "Ultrabook Edge Profile",
+  "description": "A macro profile shot: a closed laptop photographed edge on with a thickness dimension line and spec strip.",
+  "searchKeywords": [
+   "laptop",
+   "ultrabook",
+   "thin",
+   "profile",
+   "macro",
+   "notebook",
+   "aluminium",
+   "edge",
+   "electronics",
+   "thickness"
+  ],
+  "prompt": "Create a macro profile poster for a closed ultrabook, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the laptop lies closed on a {{surface_material}} bench and is photographed almost level with the surface, so the machine reads as a single thin wedge running across the lower half of the frame. The {{device_finish}} lid is new and clean, the milled edge catching one narrow strip of light. Behind it the workshop background falls out of focus: a steel rule, a roll of masking tape, the corner of a monitor. The bench itself is scuffed and dusty. Light comes from a single work lamp to the right, leaving the left end of the machine in shadow with visible grain.\n\nText layout: the brand name runs small along the top edge. \"{{headline_text}}\" sits above the laptop in large light capitals on one line. A dimension line with end ticks spans the thickness of the closed lid and is labelled \"{{thickness_label}}\". Bottom left a four part strip reads \"{{spec_chips}}\". A short {{accent_color}} note at the lower right says \"{{callout_text}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Close focus workshop photography, shallow depth of field, single hard lamp, honest metal colour.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a closed thin laptop photographed edge on across a workshop bench",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "HALVERN",
+    "required": true
+   },
+   {
+    "key": "surface_material",
+    "label": "Bench surface",
+    "inputType": "text",
+    "placeholder": "scuffed steel",
+    "required": false
+   },
+   {
+    "key": "device_finish",
+    "label": "Laptop finish",
+    "inputType": "text",
+    "placeholder": "anodised graphite aluminium",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "MEASURED FROM THE SIDE",
+    "required": true
+   },
+   {
+    "key": "thickness_label",
+    "label": "Dimension label",
+    "inputType": "text",
+    "placeholder": "11.9 mm",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "14 INCH - 1.1 KG - 18H - OLED",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "one piece milled shell",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "burnt orange",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-gaming-laptop-vent-macro",
+  "title": "Gaming Laptop Vent Macro",
+  "description": "A cooling detail poster: a macro of the rear exhaust vents of a gaming laptop with numbered callouts.",
+  "searchKeywords": [
+   "gaming laptop",
+   "cooling",
+   "vents",
+   "macro",
+   "exhaust",
+   "thermals",
+   "detail shot",
+   "notebook",
+   "electronics",
+   "fans"
+  ],
+  "prompt": "Create a cooling detail poster for a gaming laptop, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: a tight macro of the rear of an open gaming laptop, taken from behind and slightly above, so the two exhaust vents fill the width of the frame and the open screen rises out of focus at the top. The vent fins are {{vent_finish}} and the fan blades are visible a few millimetres inside. A fine layer of dust sits on the bench in front of the machine and one thread has caught on the right hand grille. Light is a single bare bulb work lamp above and behind, so the fins throw hard little shadows and the far end of the vent falls into grain.\n\nText layout: the brand name small in the upper left corner. \"{{headline_text}}\" runs across the top in condensed capitals over two lines. Three numbered leader lines in {{accent_color}} reach into the vent and read \"{{callout_list}}\". A bottom strip carries \"{{spec_chips}}\" in monospaced type.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Hard light close up photography, real dust, no glow, no rim lighting, colour straight out of the camera.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a close macro of the rear exhaust vents of an open gaming laptop",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "DRAKEHOLM",
+    "required": true
+   },
+   {
+    "key": "vent_finish",
+    "label": "Vent finish",
+    "inputType": "text",
+    "placeholder": "matte black with machined edges",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "THE HEAT HAS A WAY OUT",
+    "required": true
+   },
+   {
+    "key": "callout_list",
+    "label": "Numbered callouts",
+    "inputType": "text",
+    "placeholder": "01 vapour chamber - 02 dual fan - 03 dust channel",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "140W - 4 HEAT PIPES - 42 dB",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "acid yellow",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-convertible-tablet-three-modes",
+  "title": "Convertible Tablet Three Modes",
+  "description": "A triptych poster: one convertible laptop shown in laptop, tent and tablet mode across three bands.",
+  "searchKeywords": [
+   "convertible",
+   "2 in 1",
+   "tablet mode",
+   "triptych",
+   "laptop",
+   "hinge",
+   "modes",
+   "touchscreen",
+   "electronics",
+   "flexible"
+  ],
+  "prompt": "Create a three panel poster showing one convertible laptop in three positions, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the frame is divided into three equal horizontal bands, each a separate photograph of the same {{device_finish}} convertible on the same {{surface_material}} desk. Top band: open as a laptop, seen from the front left. Middle band: folded into a tent, seen from the right. Bottom band: flat as a tablet with a stylus resting across it. The same coffee cup sits at the edge of every band, moved a little each time, under the same window light from the left. Thin white gutters separate the bands. Real light, mild grain, no perfect symmetry.\n\nText layout: the brand name in the top left of the first band. \"{{headline_text}}\" is set once, large, across the left of the middle band with the tent shape to its right. Each band carries a small mode label at its right edge, the three together reading \"{{mode_labels}}\". A single spec strip sits under the bottom band reading \"{{spec_chips}}\". One {{accent_color}} arc marks the hinge in the middle band with the note \"{{callout_text}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Consistent daylight product photography across all three frames, honest colour, visible desk wear.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "one convertible laptop shown three times in laptop, tent and tablet position",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "PIVOTEK",
+    "required": true
+   },
+   {
+    "key": "device_finish",
+    "label": "Device finish",
+    "inputType": "text",
+    "placeholder": "pale silver with a dark keyboard deck",
+    "required": false
+   },
+   {
+    "key": "surface_material",
+    "label": "Desk surface",
+    "inputType": "text",
+    "placeholder": "warm ash veneer",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "ONE HINGE, THREE HABITS",
+    "required": true
+   },
+   {
+    "key": "mode_labels",
+    "label": "Mode labels",
+    "inputType": "text",
+    "placeholder": "LAPTOP - TENT - TABLET",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "360 HINGE - PEN - 14 INCH - 1.3 KG",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "tested to 25,000 folds",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "cobalt",
+    "required": false
+   }
+  ]
+ }
+]

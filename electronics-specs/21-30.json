@@ -1,0 +1,776 @@
+[
+ {
+  "slug": "electronics-soundbar-subwoofer-under-tv",
+  "title": "Soundbar And Subwoofer",
+  "description": "A living room poster: a soundbar under a wall mounted television with the subwoofer beside the sofa.",
+  "searchKeywords": [
+   "soundbar",
+   "subwoofer",
+   "home cinema",
+   "surround",
+   "living room",
+   "tv audio",
+   "speaker",
+   "av",
+   "electronics",
+   "surround sound"
+  ],
+  "prompt": "Create a living room audio poster for a soundbar and its wireless subwoofer, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: a long {{device_finish}} soundbar sits on a low shelf under a wall mounted television, and the matching subwoofer stands on the floor at the end of a sofa on the right. The room is honest: a throw slipping off the sofa arm, a child's toy half under it, a radiator under the window. The television is on but dim. Two table lamps and the last daylight from the window give the light, so the fabric grille shows its weave and the shelf casts a soft double shadow. Grain in the corners, colour straight out of the camera.\n\nText layout: the brand name sits top left. \"{{headline_text}}\" runs across the upper right in two lines of medium weight capitals, clear of the television. Two thin {{accent_color}} lines curve from the bar and the subwoofer towards the sofa, labelled \"{{channel_labels}}\". A bottom strip carries \"{{spec_chips}}\", with \"{{callout_text}}\" in a small box at the lower right.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Available light interior photography, warm lamps mixed with cool window light, honest colour, no glow effects.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a long soundbar under a wall mounted television with a subwoofer beside the sofa",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "HOLLOWAY AUDIO",
+    "required": true
+   },
+   {
+    "key": "device_finish",
+    "label": "Soundbar finish",
+    "inputType": "text",
+    "placeholder": "charcoal fabric over dark aluminium",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "THE ROOM BECOMES THE ROOM",
+    "required": true
+   },
+   {
+    "key": "channel_labels",
+    "label": "Channel labels",
+    "inputType": "text",
+    "placeholder": "HEIGHT - BASS",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "5.1.2 - 400 W - HDMI eARC - WIRELESS SUB",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "one cable to the television",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "warm gold",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-integrated-amplifier-vu-meters",
+  "title": "Amplifier With VU Meters",
+  "description": "A hi fi poster: an integrated amplifier photographed square on with lit VU meters and a spec strip.",
+  "searchKeywords": [
+   "amplifier",
+   "hifi",
+   "vu meter",
+   "stereo",
+   "integrated amp",
+   "audio",
+   "analogue",
+   "listening room",
+   "electronics",
+   "valve"
+  ],
+  "prompt": "Create a hi fi poster for an integrated stereo amplifier, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the amplifier stands square on to the camera on a wooden rack in a listening room. Its {{front_panel_finish}} front panel carries two lit analogue VU meters, their needles resting a little left of centre, and a row of real knurled knobs, one turned slightly off centre. Behind it, out of focus, a shelf of records and a speaker cable running down the wall. The room is lit by one standard lamp to the right, so the panel picks up a broken warm reflection and the left side falls into shadow with visible grain. Dust sits on the top plate.\n\nText layout: the brand name top centre in restrained capitals with \"{{eyebrow_text}}\" beneath in small spaced letters. \"{{headline_text}}\" runs across the lower third in two lines, kept off the meters. Under it a strip reads \"{{spec_chips}}\" in monospaced type. A short {{accent_color}} tick marks the left meter with the note \"{{callout_text}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Warm available light photography in a real room, tungsten colour, honest metal, no bloom around the meter lamps.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "an integrated stereo amplifier with two lit vu meters on a wooden hifi rack",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "BRAMWELL",
+    "required": true
+   },
+   {
+    "key": "front_panel_finish",
+    "label": "Front panel finish",
+    "inputType": "text",
+    "placeholder": "brushed champagne aluminium",
+    "required": false
+   },
+   {
+    "key": "eyebrow_text",
+    "label": "Eyebrow",
+    "inputType": "text",
+    "placeholder": "CLASS A, STILL",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "NEEDLES INSTEAD OF NUMBERS",
+    "required": true
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "2 x 80 W | PHONO IN | 4 OHM | 14 KG",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "lamps, not LEDs",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "deep amber",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-turntable-tonearm-macro",
+  "title": "Turntable Tonearm Macro",
+  "description": "A macro poster: the cartridge and stylus of a turntable meeting the record groove, with fine callouts.",
+  "searchKeywords": [
+   "turntable",
+   "tonearm",
+   "cartridge",
+   "stylus",
+   "vinyl",
+   "record player",
+   "macro",
+   "analogue",
+   "electronics",
+   "hifi"
+  ],
+  "prompt": "Create a macro poster of the tonearm of a record player, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: an extreme close up along the surface of a spinning record, the {{cartridge_color}} cartridge and its cantilever dropping into the groove at the centre of the frame. The vinyl surface shows real dust and one fine scratch running away from the stylus, and the grooves catch a thin ribbon of light. The tonearm tube and counterweight recede sharply out of focus to the right. Light is one small lamp from the left at a very low angle, everything else in soft shadow with grain. Background is the {{background_setting}}, unfocused.\n\nText layout: the brand name sits in the upper left. \"{{headline_text}}\" runs along the top in one line of light spaced capitals. Two hairline {{accent_color}} leaders reach in to the cantilever and the counterweight with the notes \"{{callout_list}}\". A short strip in the lower right carries \"{{spec_chips}}\", and \"{{footnote_text}}\" sits under it in very small type.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Macro photography with one low raking lamp, real dust, very shallow focus, honest colour.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a macro of a turntable cartridge and stylus sitting in the groove of a record",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "GROOVEHALL",
+    "required": true
+   },
+   {
+    "key": "cartridge_color",
+    "label": "Cartridge colour",
+    "inputType": "text",
+    "placeholder": "deep red with a silver cantilever",
+    "required": false
+   },
+   {
+    "key": "background_setting",
+    "label": "Background",
+    "inputType": "text",
+    "placeholder": "a dim room with a shelf of records",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "WHERE THE MUSIC IS ACTUALLY KEPT",
+    "required": true
+   },
+   {
+    "key": "callout_list",
+    "label": "Leader notes",
+    "inputType": "text",
+    "placeholder": "elliptical stylus - 1.8 g tracking",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "33 / 45 - MM CARTRIDGE",
+    "required": false
+   },
+   {
+    "key": "footnote_text",
+    "label": "Footnote",
+    "inputType": "text",
+    "placeholder": "belt drive, aluminium platter",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "pale blue",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-studio-microphone-interface",
+  "title": "Studio Microphone And Interface",
+  "description": "A home studio poster: a condenser microphone on a boom arm with a desktop audio interface and level marks.",
+  "searchKeywords": [
+   "microphone",
+   "audio interface",
+   "home studio",
+   "podcast",
+   "recording",
+   "condenser",
+   "boom arm",
+   "levels",
+   "electronics",
+   "xlr"
+  ],
+  "prompt": "Create a home studio poster for a condenser microphone and its desktop interface, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the microphone hangs in its shock mount on a boom arm reaching in from the right, its {{device_finish}} body facing the camera at head height. On the desk below sits a small two channel interface with real knobs and one lit ring, an XLR cable looping behind. The room is a converted bedroom: a duvet pinned to the wall as a baffle, a mug, a script with pen marks. One softbox to the left and a warm bulb behind give two light colours; the mic grille shows dust and the desk has ring marks. Grain in the darker half.\n\nText layout: the brand name in the top left. \"{{headline_text}}\" runs down the left edge in three short lines of heavy capitals, clear of the microphone. A simple level scale in {{accent_color}} climbs the right edge with the marks \"{{level_labels}}\". A bottom strip carries \"{{spec_chips}}\", and \"{{callout_text}}\" is set in a small box at the lower left.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Available light photography in a real small room, mixed colour temperature, honest surfaces, no gloss.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a condenser microphone on a boom arm above a small desktop audio interface",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "REEDMARK",
+    "required": true
+   },
+   {
+    "key": "device_finish",
+    "label": "Microphone finish",
+    "inputType": "text",
+    "placeholder": "matte graphite with a nickel grille",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "A ROOM THIS SMALL CAN STILL SOUND BIG",
+    "required": true
+   },
+   {
+    "key": "level_labels",
+    "label": "Level scale marks",
+    "inputType": "text",
+    "placeholder": "-24 - -12 - -6 - 0",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "CARDIOID - 24 BIT - 48V - USB-C",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "shock mount in the box",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "bright green",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-mesh-router-three-nodes",
+  "title": "Mesh Router Three Nodes",
+  "description": "A coverage poster: three mesh router nodes on a floor plan drawing with coverage rings and a spec bar.",
+  "searchKeywords": [
+   "mesh router",
+   "wifi",
+   "coverage",
+   "network",
+   "floor plan",
+   "nodes",
+   "home network",
+   "wifi 7",
+   "electronics",
+   "internet"
+  ],
+  "prompt": "Create a coverage poster for a three piece mesh router set, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: a printed floor plan of a small house lies on a table, and the three router nodes stand directly on the paper, one per floor area, photographed from above at a slight angle so they cast real shadows across the drawing. The nodes are {{device_finish}} and new; the paper is creased along one fold and dog eared at a corner, with a pencil and a rubber lying beside it. A window light from the upper left, warm room light from the right, so the white plastic takes two tones. Grain in the shadowed edge of the paper.\n\nText layout: the brand name top left. \"{{headline_text}}\" runs across the top right in two lines. Around each node a thin {{accent_color}} ring is drawn onto the plan, the three labelled \"{{room_labels}}\". A strip along the bottom carries \"{{spec_chips}}\", and \"{{callout_text}}\" sits under it in small type.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Overhead photography of a real table, mixed daylight and lamp, honest paper texture, no digital glow.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "three small mesh router nodes standing on a printed floor plan on a table",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "MESHFORD",
+    "required": true
+   },
+   {
+    "key": "device_finish",
+    "label": "Node finish",
+    "inputType": "text",
+    "placeholder": "soft white matte plastic",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "NO MORE DEAD CORNER",
+    "required": true
+   },
+   {
+    "key": "room_labels",
+    "label": "Room labels",
+    "inputType": "text",
+    "placeholder": "HALL - LOFT - GARDEN ROOM",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "WIFI 7 - 300 SQM - 2.5 Gbps - 3 PACK",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "set up in about four minutes",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "strong magenta",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-nas-drive-tray-pulled",
+  "title": "NAS With Drive Tray Out",
+  "description": "A storage poster: a four bay network drive with one tray pulled out and the disk visible, with capacity labels.",
+  "searchKeywords": [
+   "nas",
+   "network storage",
+   "drive bay",
+   "hard disk",
+   "backup",
+   "server",
+   "home lab",
+   "raid",
+   "electronics",
+   "storage"
+  ],
+  "prompt": "Create a storage poster for a four bay network attached drive, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the unit stands on a shelf in a utility cupboard, photographed from the front at a slight angle. The second tray has been pulled halfway out, the bare hard disk on it catching the light, its label turned away. The other three bays are closed, one small status light on. The {{case_finish}} case has a fingerprint on the top edge; behind it a coiled patch cable, a power brick and a shelf bracket. Light is a single bare bulb above, so the front panel gradient is uneven and the cupboard behind falls into grainy dark.\n\nText layout: the brand name sits bottom left. \"{{headline_text}}\" runs across the top in two lines of condensed capitals. A thin {{accent_color}} bracket follows the pulled tray with the note \"{{callout_text}}\". Beside each bay a small label lists \"{{bay_labels}}\" down the right. A strip at the bottom carries \"{{spec_chips}}\" in monospaced type.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Plain documentary photography in a utility space, one hard bulb, honest colour, real dust.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a four bay network storage unit with one drive tray pulled halfway out",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "VAULTROW",
+    "required": true
+   },
+   {
+    "key": "case_finish",
+    "label": "Case finish",
+    "inputType": "text",
+    "placeholder": "matte black steel",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "YOUR FILES STAY IN THE HOUSE",
+    "required": true
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "swap a disk without tools",
+    "required": false
+   },
+   {
+    "key": "bay_labels",
+    "label": "Bay labels",
+    "inputType": "text",
+    "placeholder": "BAY 1 - BAY 2 - BAY 3 - BAY 4",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "4 BAY | 80 TB | 2.5 GbE | RAID",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "bright orange",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-smart-home-wall-panel",
+  "title": "Smart Home Wall Panel",
+  "description": "A hallway poster: a flush mounted smart home control panel with a hand reaching for a room tile.",
+  "searchKeywords": [
+   "smart home",
+   "wall panel",
+   "control panel",
+   "home automation",
+   "touch screen",
+   "hallway",
+   "hub",
+   "dashboard",
+   "electronics",
+   "lighting"
+  ],
+  "prompt": "Create a hallway poster for a flush mounted smart home control panel, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the panel is set into a {{wall_finish}} hallway wall at shoulder height, photographed from a step to the left so the screen is slightly angled. A hand reaches in from the right, one finger about to touch a tile; the hand is ordinary, with a plaster on one knuckle. Below the panel a light switch sits at a very slightly different height, and a coat sleeve hangs at the edge of frame. Daylight from a door at the end of the hall plus a warm ceiling light; the glass reflects a faint uneven strip of the hall rather than a clean gradient. Grain in the shadowed wall.\n\nOn screen: {{screen_image}}.\n\nText layout: the brand name sits vertically down the right edge in small capitals. \"{{headline_text}}\" runs across the lower left in three short lines. Two {{accent_color}} leaders point at the panel edge and the wall box with the notes \"{{callout_list}}\". A thin strip at the very bottom reads \"{{spec_chips}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Available light interior photography, mixed daylight and warm bulb, honest wall texture, no screen bloom.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a flush mounted smart home panel in a hallway wall with a hand reaching towards it",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "HEARTHLINE",
+    "required": true
+   },
+   {
+    "key": "wall_finish",
+    "label": "Wall finish",
+    "inputType": "text",
+    "placeholder": "clay plaster in soft grey",
+    "required": false
+   },
+   {
+    "key": "screen_image",
+    "label": "What is on the screen",
+    "inputType": "text",
+    "placeholder": "room tiles for kitchen, hall and garden with a temperature dial",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "THE WHOLE HOUSE ON ONE WALL",
+    "required": true
+   },
+   {
+    "key": "callout_list",
+    "label": "Leader notes",
+    "inputType": "text",
+    "placeholder": "2 mm bezel - fits a standard back box",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "7 INCH - POE - LOCAL API - MESH",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "muted terracotta",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-indoor-camera-field-of-view",
+  "title": "Indoor Camera Field Of View",
+  "description": "A coverage poster: a small indoor security camera on a shelf with its field of view drawn across the room.",
+  "searchKeywords": [
+   "security camera",
+   "indoor camera",
+   "field of view",
+   "home security",
+   "monitoring",
+   "shelf",
+   "privacy",
+   "coverage",
+   "electronics",
+   "smart camera"
+  ],
+  "prompt": "Create a coverage poster for a small indoor security camera, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the camera stands on a bookshelf in a living room, turned slightly towards the sofa, photographed from across the room so both the camera and what it can see are in frame. The {{device_finish}} body is new; the shelf is not, with leaning books, a dusty photo frame and a plant that needs water. Late afternoon light comes through a blind in stripes across the far wall, and one small lamp is on. The lens shows a faint uneven reflection. Grain in the shadowed lower half of the room.\n\nText layout: the brand name sits top right. \"{{headline_text}}\" runs across the top left in two lines. A translucent {{accent_color}} wedge is drawn from the lens across the room to show the field of view, labelled \"{{fov_label}}\" along its lower edge. A privacy note \"{{callout_text}}\" sits in a small box at the lower left. A bottom strip carries \"{{spec_chips}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Available light interior photography, striped blind light, honest colour, no glow.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a small indoor security camera on a bookshelf looking across a living room",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "WARDENLY",
+    "required": true
+   },
+   {
+    "key": "device_finish",
+    "label": "Camera finish",
+    "inputType": "text",
+    "placeholder": "chalk white with a dark lens ring",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "IT WATCHES THE ROOM, NOT YOU",
+    "required": true
+   },
+   {
+    "key": "fov_label",
+    "label": "Field of view label",
+    "inputType": "text",
+    "placeholder": "140 DEGREES",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Privacy note",
+    "inputType": "text",
+    "placeholder": "physical lens shutter",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "2K - NIGHT MODE - LOCAL STORAGE",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "soft teal",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-video-doorbell-install",
+  "title": "Video Doorbell Installed",
+  "description": "An entrance poster: a video doorbell mounted beside a front door with fitting notes and a spec strip.",
+  "searchKeywords": [
+   "video doorbell",
+   "front door",
+   "installation",
+   "smart doorbell",
+   "entrance",
+   "security",
+   "mounting",
+   "two way audio",
+   "electronics",
+   "home"
+  ],
+  "prompt": "Create an entrance poster for a video doorbell, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the doorbell is mounted on the {{door_frame_material}} beside a painted front door, photographed from just off centre at chest height. The paint around it is real - a chip near the hinge, a fine crack in the render, a cobweb in the corner of the porch. A parcel leans against the step below, half in frame. Overcast daylight, no direct sun, so the plastic front is evenly lit and the small lens shows a dull reflection of the street. Slight grain, corners a touch dark.\n\nText layout: the brand name top left. \"{{headline_text}}\" runs down the left side in three short lines of capitals. Two fine {{accent_color}} leaders point at the mount plate and the button ring with the notes \"{{callout_list}}\". A bottom strip carries \"{{spec_chips}}\", and \"{{footnote_text}}\" sits under it in small type.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Overcast daylight documentary photography, honest paint and render texture, no HDR look.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a video doorbell mounted on the frame beside a painted front door",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "PORCHKEEP",
+    "required": true
+   },
+   {
+    "key": "door_frame_material",
+    "label": "Door frame",
+    "inputType": "text",
+    "placeholder": "weathered green painted wood",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "SEE WHO IS THERE BEFORE YOU GO DOWN",
+    "required": true
+   },
+   {
+    "key": "callout_list",
+    "label": "Leader notes",
+    "inputType": "text",
+    "placeholder": "angled wedge included - screws behind the ring",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "2K - HEAD TO TOE - 6 MONTH BATTERY",
+    "required": false
+   },
+   {
+    "key": "footnote_text",
+    "label": "Footnote",
+    "inputType": "text",
+    "placeholder": "wired or battery, your choice",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "bright red",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-home-network-rack",
+  "title": "Home Network Rack",
+  "description": "A cupboard poster: a small wall mounted network rack with patch cables, switch and router, labelled by unit.",
+  "searchKeywords": [
+   "network rack",
+   "patch panel",
+   "switch",
+   "home lab",
+   "cabling",
+   "structured wiring",
+   "cupboard",
+   "it",
+   "electronics",
+   "ethernet"
+  ],
+  "prompt": "Create a technical poster for a small wall mounted home network rack, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the open frame rack hangs on a cupboard wall, photographed square on. From top to bottom: a patch panel with {{cable_color}} patch leads combed to one side, a switch with a row of link lights, a router and a small shelf holding a power brick. The cabling is tidy but human - one lead crosses another, a cable tie is a little loose, a label is handwritten. Dust sits on the top rail. A single bulb above and to the right lights it unevenly; the lower unit falls into grain.\n\nText layout: the brand name top left with \"{{eyebrow_text}}\" beneath in small spaced capitals. \"{{headline_text}}\" runs down the right hand margin, rotated, in one line of condensed type. Small unit labels sit beside each shelf reading \"{{unit_labels}}\". A bottom strip carries \"{{spec_chips}}\", and a short {{accent_color}} bracket marks the patch panel with \"{{callout_text}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Plain documentary photography in a real cupboard, one hard bulb, honest dust and cable wear.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a small wall mounted network rack with a patch panel, switch and router",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "CONDUITWORKS",
+    "required": true
+   },
+   {
+    "key": "cable_color",
+    "label": "Patch cable colour",
+    "inputType": "text",
+    "placeholder": "pale blue",
+    "required": false
+   },
+   {
+    "key": "eyebrow_text",
+    "label": "Eyebrow",
+    "inputType": "text",
+    "placeholder": "THE CUPBOARD NOBODY SEES",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "WIRED WHERE IT MATTERS",
+    "required": true
+   },
+   {
+    "key": "unit_labels",
+    "label": "Unit labels",
+    "inputType": "text",
+    "placeholder": "PATCH - SWITCH - ROUTER - POWER",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "12 PORT - 2.5 GbE - POE - 6U",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "every room on its own line",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "lime green",
+    "required": false
+   }
+  ]
+ }
+]

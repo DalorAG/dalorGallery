@@ -1,0 +1,804 @@
+[
+ {
+  "slug": "electronics-espresso-machine-counter",
+  "title": "Espresso Machine On The Counter",
+  "description": "A kitchen poster: a domestic espresso machine mid extraction with a pressure gauge callout and spec strip.",
+  "searchKeywords": [
+   "espresso machine",
+   "coffee",
+   "kitchen appliance",
+   "barista",
+   "extraction",
+   "portafilter",
+   "counter",
+   "home cafe",
+   "electronics",
+   "gauge"
+  ],
+  "prompt": "Create a kitchen counter poster for a domestic espresso machine, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the machine stands on a {{counter_material}} worktop, photographed from just above cup height. A shot is running: two dark streams falling into a glass cup, the crema building. The {{device_finish}} body is new, but the kitchen is used - a scattering of ground coffee on the tray, a folded tea towel, a jar of beans with the lid off, a small water mark on the stone. Morning light from a window on the left and the warm under cabinet strip on the right, so the metal takes two colours and the shadows keep their grain.\n\nText layout: the brand name sits top left. \"{{headline_text}}\" runs across the upper right in two lines of medium capitals. A short {{accent_color}} leader points at the pressure gauge and reads \"{{callout_text}}\". Along the bottom four chips read \"{{spec_chips}}\", with \"{{footnote_text}}\" in small type underneath.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Available light kitchen photography, mixed window and cabinet light, honest stone and steel, real spilled grounds.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a domestic espresso machine pulling a shot into a glass cup on a kitchen worktop",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "CREMANTE",
+    "required": true
+   },
+   {
+    "key": "counter_material",
+    "label": "Worktop material",
+    "inputType": "text",
+    "placeholder": "honed grey stone",
+    "required": false
+   },
+   {
+    "key": "device_finish",
+    "label": "Machine finish",
+    "inputType": "text",
+    "placeholder": "stainless steel with a black lever",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "NINE BAR, EVERY MORNING",
+    "required": true
+   },
+   {
+    "key": "callout_text",
+    "label": "Gauge callout",
+    "inputType": "text",
+    "placeholder": "needle in the green",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec chips",
+    "inputType": "text",
+    "placeholder": "9 BAR - PID - 2 L TANK - 58 mm",
+    "required": false
+   },
+   {
+    "key": "footnote_text",
+    "label": "Footnote",
+    "inputType": "text",
+    "placeholder": "steam wand and basket set included",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "deep red",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-bean-to-cup-machine-display",
+  "title": "Bean To Cup Machine Display",
+  "description": "A close poster: the display and dial of a bean to cup coffee machine mid programme, with menu labels.",
+  "searchKeywords": [
+   "bean to cup",
+   "coffee machine",
+   "display",
+   "interface",
+   "dial",
+   "kitchen appliance",
+   "automatic coffee",
+   "menu",
+   "electronics",
+   "grinder"
+  ],
+  "prompt": "Create a close interface poster for a bean to cup coffee machine, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: framed tight on the upper front of the machine so the small colour display and the knurled selector dial fill the left half, with the bean hopper out of focus above and a cup waiting under the spout at the lower right. The {{device_finish}} panel carries a real fingerprint beside the dial and a faint coffee splash near the spout. Kitchen light comes from a window behind the camera and a warm bulb to the right, so the display sits in shadow and reads clearly without glare. Grain in the dark hopper glass.\n\nOn the display: {{screen_image}}.\n\nText layout: the brand name runs vertically down the right edge in small capitals. \"{{headline_text}}\" sits across the top in one line of light type. Three {{accent_color}} tick marks around the dial carry the labels \"{{menu_labels}}\". A bottom strip reads \"{{spec_chips}}\" and a small box at the lower left says \"{{callout_text}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Available light close up photography, honest plastic and steel, no screen bloom, colour straight out of the camera.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "the display and selector dial of a bean to cup coffee machine seen close up",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "MALTBY",
+    "required": true
+   },
+   {
+    "key": "device_finish",
+    "label": "Panel finish",
+    "inputType": "text",
+    "placeholder": "warm grey plastic with a steel dial",
+    "required": false
+   },
+   {
+    "key": "screen_image",
+    "label": "What is on the display",
+    "inputType": "text",
+    "placeholder": "a cappuccino icon with a grind strength bar",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "ONE DIAL, NO MANUAL",
+    "required": true
+   },
+   {
+    "key": "menu_labels",
+    "label": "Dial labels",
+    "inputType": "text",
+    "placeholder": "ESPRESSO - FLAT WHITE - HOT WATER",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "CERAMIC BURR - 15 BAR - 1.8 L",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "rinses itself when it cools",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "burnt orange",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-robot-vacuum-top-down",
+  "title": "Robot Vacuum Mapping",
+  "description": "A top down poster: a robot vacuum on a floor with its cleaning path drawn behind it and a spec bar.",
+  "searchKeywords": [
+   "robot vacuum",
+   "mapping",
+   "lidar",
+   "cleaning",
+   "floor",
+   "home robot",
+   "top down",
+   "path",
+   "electronics",
+   "smart home"
+  ],
+  "prompt": "Create a top down poster for a robot vacuum, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: photographed straight down onto a {{floor_material}} floor. The robot sits in the lower third, its lidar turret raised, having crossed the frame in neat parallel passes - the vacuumed strips read slightly cleaner than the dusty ones beside them. A chair leg, the edge of a rug and a dropped sock sit at the margins. The machine is new, the floor is not: crumbs, a hairband, a scuff near the skirting. Daylight from a window at the top of frame throws one long soft shadow. Faint grain, corners darker.\n\nText layout: the brand name top left. \"{{headline_text}}\" runs across the top right in two lines. A thin dashed {{accent_color}} line traces the path the robot has taken and ends at an arrow labelled \"{{callout_text}}\". Down the left edge three short notes read \"{{feature_list}}\". A bottom strip carries \"{{spec_chips}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Overhead available light photography of a real floor, honest dust and crumbs, no gloss, no glow.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a robot vacuum seen from directly above with cleaned strips behind it",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "TIDEWELL",
+    "required": true
+   },
+   {
+    "key": "floor_material",
+    "label": "Floor material",
+    "inputType": "text",
+    "placeholder": "pale oak boards",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "IT LEARNS THE ROOM ONCE",
+    "required": true
+   },
+   {
+    "key": "callout_text",
+    "label": "Path callout",
+    "inputType": "text",
+    "placeholder": "returns to the dock alone",
+    "required": false
+   },
+   {
+    "key": "feature_list",
+    "label": "Side notes",
+    "inputType": "text",
+    "placeholder": "lidar map - carpet boost - no go lines",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "6000 Pa - 180 MIN - 8 CM HIGH",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "electric violet",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-stick-vacuum-attachments",
+  "title": "Stick Vacuum Attachment Set",
+  "description": "An exploded layout: a cordless stick vacuum with its wand, heads and filter separated along one axis.",
+  "searchKeywords": [
+   "stick vacuum",
+   "cordless vacuum",
+   "attachments",
+   "exploded view",
+   "cleaning",
+   "filter",
+   "tools",
+   "household",
+   "electronics",
+   "hoover"
+  ],
+  "prompt": "Create an exploded layout poster for a cordless stick vacuum, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the vacuum is separated into its parts and laid on a {{background_surface}}, photographed straight down: motor body with battery, then a gap, then the wand, then the floor head, with the crevice tool, brush head and washable filter arranged in a short row below. The pieces are {{device_finish}} and new, but the surface beneath is a real work table with tape residue and pencil marks. One part sits a few degrees off the axis. Even overhead daylight, each piece with its own soft shadow, faint grain on the table.\n\nText layout: the brand name top left with \"{{eyebrow_text}}\" beneath in spaced capitals. \"{{headline_text}}\" runs across the top right in two lines. Each part is numbered with a thin {{accent_color}} leader to a key in the lower margin reading \"{{part_list}}\". A bottom strip carries \"{{spec_chips}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Flat overhead product photography on a used table, daylight, honest plastic and matte metal, no CGI sheen.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a cordless stick vacuum taken apart into body, wand, heads and filter",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "GALEBORN",
+    "required": true
+   },
+   {
+    "key": "background_surface",
+    "label": "Surface",
+    "inputType": "text",
+    "placeholder": "pale grey work table",
+    "required": false
+   },
+   {
+    "key": "device_finish",
+    "label": "Device finish",
+    "inputType": "text",
+    "placeholder": "chalk white with copper accents",
+    "required": false
+   },
+   {
+    "key": "eyebrow_text",
+    "label": "Eyebrow",
+    "inputType": "text",
+    "placeholder": "SIX PARTS, NO SCREWS",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "EVERY HEAD CLICKS OFF",
+    "required": true
+   },
+   {
+    "key": "part_list",
+    "label": "Part key",
+    "inputType": "text",
+    "placeholder": "1 motor  2 wand  3 floor head  4 crevice  5 brush  6 filter",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "60 MIN - 1.4 KG - HEPA",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "copper",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-air-purifier-before-after",
+  "title": "Air Purifier Before And After",
+  "description": "A split frame poster: the same room before and after an air purifier runs, with a reading on each half.",
+  "searchKeywords": [
+   "air purifier",
+   "before after",
+   "air quality",
+   "hepa",
+   "allergy",
+   "comparison",
+   "clean air",
+   "room",
+   "electronics",
+   "filter"
+  ],
+  "prompt": "Create a split before and after poster for a room air purifier, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: one photograph of the same {{room_setting}} split down the middle by a hard vertical line. Left half: late afternoon sun through the window makes the dust in the air visible, a cat hair on the sofa arm, the light hazy. Right half: the same frame with the air clear, the same sun beam now clean and sharp. The purifier stands at the centre of the join, {{device_finish}}, new, its dial lit. The room is honest in both halves - the same crooked cushion, the same magazine on the floor. Grain in the shadows, colour straight out of the camera, no colour grading.\n\nText layout: the brand name sits top centre above the split. A small label sits at the top of each half reading \"{{half_labels}}\". \"{{headline_text}}\" runs across the bottom in two lines spanning both halves. Above it a reading in {{accent_color}} on each side gives \"{{reading_values}}\". A thin bottom strip carries \"{{spec_chips}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Available light interior photography, real dust in the beam, honest colour, no HDR.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "an air purifier standing in a sunlit living room shown before and after cleaning the air",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "CLEARWIND",
+    "required": true
+   },
+   {
+    "key": "room_setting",
+    "label": "Room",
+    "inputType": "text",
+    "placeholder": "living room with a low sofa and a tall window",
+    "required": false
+   },
+   {
+    "key": "device_finish",
+    "label": "Purifier finish",
+    "inputType": "text",
+    "placeholder": "bone white fabric over a pale grey base",
+    "required": false
+   },
+   {
+    "key": "half_labels",
+    "label": "Half labels",
+    "inputType": "text",
+    "placeholder": "BEFORE - AFTER 20 MIN",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "THE SAME LIGHT, WITHOUT THE DUST",
+    "required": true
+   },
+   {
+    "key": "reading_values",
+    "label": "Readings",
+    "inputType": "text",
+    "placeholder": "PM2.5 68 / PM2.5 4",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "HEPA 13 - 60 SQM - 24 dB",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "clear blue",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-tower-fan-living-room",
+  "title": "Tower Fan In Summer",
+  "description": "A summer room poster: a bladeless tower fan beside a balcony door with airflow marks and a spec strip.",
+  "searchKeywords": [
+   "tower fan",
+   "bladeless fan",
+   "cooling",
+   "summer",
+   "airflow",
+   "living room",
+   "quiet",
+   "fan",
+   "electronics",
+   "air"
+  ],
+  "prompt": "Create a summer room poster for a tall bladeless tower fan, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the fan stands beside an open balcony door in a flat on a hot afternoon. Its {{device_finish}} column is new and clean; everything else says summer - a linen curtain lifting in the draught, a glass of water sweating on the side table, a book face down, sandals kicked off by the door. Hard sunlight falls in a slanted block across the floor and the fan stands half in it, half out, so one side is bright and the other keeps its grain. The curtain motion is caught with a slight natural blur.\n\nText layout: the brand name top right. \"{{headline_text}}\" runs down the left edge in three short lines of capitals. Three fine {{accent_color}} arcs trace the air leaving the top of the column, the middle one labelled \"{{callout_text}}\". A bottom strip carries \"{{spec_chips}}\", and \"{{footnote_text}}\" sits beneath in small type.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Available light photography with hard summer sun, honest fabric and plastic, no glow, no colour grading.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a tall bladeless tower fan standing beside an open balcony door in summer",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "BREEZEHOLM",
+    "required": true
+   },
+   {
+    "key": "device_finish",
+    "label": "Fan finish",
+    "inputType": "text",
+    "placeholder": "soft white with a brushed nickel foot",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "MOVES AIR, NOT PAPER",
+    "required": true
+   },
+   {
+    "key": "callout_text",
+    "label": "Airflow callout",
+    "inputType": "text",
+    "placeholder": "wide, slow, quiet",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "10 SPEEDS - 24 dB - OSCILLATES - TIMER",
+    "required": false
+   },
+   {
+    "key": "footnote_text",
+    "label": "Footnote",
+    "inputType": "text",
+    "placeholder": "no blades to wipe",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "pale sky blue",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-split-air-conditioner-wall",
+  "title": "Split Air Conditioner Unit",
+  "description": "A room poster: a wall mounted air conditioner indoor unit with a temperature readout and airflow arrows.",
+  "searchKeywords": [
+   "air conditioner",
+   "split unit",
+   "cooling",
+   "heat pump",
+   "wall mounted",
+   "temperature",
+   "climate",
+   "inverter",
+   "electronics",
+   "home"
+  ],
+  "prompt": "Create a room poster for a wall mounted air conditioner indoor unit, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the unit is mounted high on a {{wall_finish}} bedroom wall, photographed from below and to the left so the louvre is clearly open. The room beneath is ordinary: a wardrobe door slightly ajar, a chair with clothes over it, a pipe cover running down to the corner. The unit itself is new, the wall has a small filled hole beside it. Light comes from a window on the right and a bedside lamp, so the white plastic takes a warm and a cool side. Grain in the ceiling corner.\n\nText layout: the brand name sits bottom left. \"{{headline_text}}\" runs across the upper left in two lines of medium capitals, clear of the unit. Three thin {{accent_color}} arrows leave the louvre and curve down into the room, the middle one labelled \"{{callout_text}}\". A set temperature reading \"{{temperature_value}}\" sits in a small box beside the unit. A bottom strip carries \"{{spec_chips}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Available light interior photography, mixed lamp and daylight, honest wall texture, no glow.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a wall mounted air conditioner indoor unit high on a bedroom wall",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "NORDVANE",
+    "required": true
+   },
+   {
+    "key": "wall_finish",
+    "label": "Wall finish",
+    "inputType": "text",
+    "placeholder": "warm white painted plaster",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "QUIET ENOUGH TO SLEEP THROUGH",
+    "required": true
+   },
+   {
+    "key": "callout_text",
+    "label": "Airflow callout",
+    "inputType": "text",
+    "placeholder": "no draught on the bed",
+    "required": false
+   },
+   {
+    "key": "temperature_value",
+    "label": "Set temperature",
+    "inputType": "text",
+    "placeholder": "21 C",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "INVERTER - 19 dB - A+++ - HEATS TOO",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "cool blue",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-dehumidifier-tank-detail",
+  "title": "Dehumidifier Water Tank",
+  "description": "A utility room poster: a dehumidifier with its full water tank pulled out and a humidity reading.",
+  "searchKeywords": [
+   "dehumidifier",
+   "water tank",
+   "damp",
+   "humidity",
+   "utility room",
+   "laundry",
+   "condensation",
+   "appliance",
+   "electronics",
+   "drying"
+  ],
+  "prompt": "Create a utility room poster for a domestic dehumidifier, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the machine stands on a tiled utility room floor, its clear water tank pulled halfway out and visibly full, the water tinted slightly grey. Wet washing hangs on an airer behind it, one sock dripping. The {{device_finish}} case is new; the room is not - a chipped tile, a mop leaning in the corner, condensation still on the small window. Light is one ceiling bulb and a little grey daylight through the window, so the plastic reads cool on one side, warm on the other. Grain in the corners.\n\nText layout: the brand name top left. \"{{headline_text}}\" runs across the upper right in two lines. A {{accent_color}} bracket follows the pulled tank with the note \"{{callout_text}}\". A humidity reading \"{{humidity_value}}\" sits in a small box at the machine's display. A bottom strip carries \"{{spec_chips}}\", with \"{{footnote_text}}\" underneath in small type.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Plain documentary photography in a real utility room, one bulb plus grey daylight, honest tiles and damp.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a dehumidifier with its full clear water tank pulled halfway out in a utility room",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "DRYWELL",
+    "required": true
+   },
+   {
+    "key": "device_finish",
+    "label": "Case finish",
+    "inputType": "text",
+    "placeholder": "pale grey plastic with a dark grille",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "TAKES THE WINTER OUT OF THE WALLS",
+    "required": true
+   },
+   {
+    "key": "callout_text",
+    "label": "Tank callout",
+    "inputType": "text",
+    "placeholder": "3.5 litres, no lifting",
+    "required": false
+   },
+   {
+    "key": "humidity_value",
+    "label": "Humidity reading",
+    "inputType": "text",
+    "placeholder": "48 %",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "20 L / DAY - LAUNDRY MODE - 38 dB",
+    "required": false
+   },
+   {
+    "key": "footnote_text",
+    "label": "Footnote",
+    "inputType": "text",
+    "placeholder": "continuous drain hose included",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "strong teal",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-induction-hob-top-down",
+  "title": "Induction Hob From Above",
+  "description": "A top down poster: an induction hob with a pan on one zone and the power levels marked on the glass.",
+  "searchKeywords": [
+   "induction hob",
+   "cooktop",
+   "kitchen",
+   "top down",
+   "cooking",
+   "power level",
+   "glass ceramic",
+   "appliance",
+   "electronics",
+   "kitchen tech"
+  ],
+  "prompt": "Create a top down poster for an induction hob, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: shot straight down onto the black glass hob set into a {{counter_material}} worktop. A heavy pan sits on the front left zone with water just starting to move; the other zones are empty and show their printed rings. The glass is real glass: a faint arc of old wipe marks, one water drop near the control strip, a reflection of the extractor hood above broken across the surface. A wooden spoon and a folded cloth lie on the worktop at the edge of frame. Overhead kitchen light plus daylight from the left; grain in the black glass.\n\nText layout: the brand name sits in the upper left. \"{{headline_text}}\" runs across the top right in two lines of light capitals. A thin {{accent_color}} scale along the control strip is marked \"{{level_labels}}\". A short leader points to the active zone with the note \"{{callout_text}}\". A bottom strip carries \"{{spec_chips}}\".\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Overhead available light photography of a used kitchen, honest glass reflections, no glow, colour straight out of the camera.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a black glass induction hob seen from above with one pan on a front zone",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "FERRAWAY",
+    "required": true
+   },
+   {
+    "key": "counter_material",
+    "label": "Worktop material",
+    "inputType": "text",
+    "placeholder": "pale terrazzo",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "HEAT THAT STOPS WHEN YOU DO",
+    "required": true
+   },
+   {
+    "key": "level_labels",
+    "label": "Power scale",
+    "inputType": "text",
+    "placeholder": "1 - 5 - 9 - BOOST",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Zone callout",
+    "inputType": "text",
+    "placeholder": "boils 2 litres in 4 minutes",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "4 ZONES - BRIDGE - PAN SENSING - LOCK",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "amber",
+    "required": false
+   }
+  ]
+ },
+ {
+  "slug": "electronics-air-fryer-oven-window",
+  "title": "Air Fryer Oven Window",
+  "description": "A counter poster: a glass fronted air fryer oven mid cook with a timer readout and a spec strip.",
+  "searchKeywords": [
+   "air fryer",
+   "countertop oven",
+   "kitchen appliance",
+   "cooking",
+   "timer",
+   "glass door",
+   "convection",
+   "dinner",
+   "electronics",
+   "kitchen"
+  ],
+  "prompt": "Create a countertop poster for a glass fronted air fryer oven, vertical 4:5.\n\nBrand: \"{{brand_name}}\"\n\nScene: the oven sits on a kitchen worktop and is photographed almost square on from a little above the door. Inside, food is cooking on the basket - {{food_inside}} - and the interior lamp lights it warmly through the glass. The {{device_finish}} shell is new but the kitchen behind is lived in: a knife block, a splash on the tiles, a tea towel over the oven rail below. The room light is off, so most of the light comes from inside the oven and one window to the left; the glass carries a broken reflection of the kitchen. Grain in the dark surround.\n\nText layout: the brand name sits bottom right. \"{{headline_text}}\" runs down the left side in three short lines of heavy capitals, clear of the door. A timer readout \"{{timer_value}}\" sits in a small {{accent_color}} box beside the control knob. A bottom strip carries \"{{spec_chips}}\", and \"{{callout_text}}\" is set under the headline in small type.\n\nInvented brand only, no real manufacturers, no real logos, no existing model names. Available light kitchen photography lit mainly by the oven lamp, warm honest colour, no HDR, no bloom.\n\n{{image_description}}",
+  "fields": [
+   {
+    "key": "image_description",
+    "label": "What should be the main subject?",
+    "inputType": "textarea",
+    "placeholder": "a glass fronted air fryer oven on a kitchen worktop with food cooking inside",
+    "required": false
+   },
+   {
+    "key": "brand_name",
+    "label": "Brand name",
+    "inputType": "text",
+    "placeholder": "HOBSHIRE",
+    "required": true
+   },
+   {
+    "key": "food_inside",
+    "label": "What is cooking",
+    "inputType": "text",
+    "placeholder": "chicken thighs and potato wedges",
+    "required": false
+   },
+   {
+    "key": "device_finish",
+    "label": "Shell finish",
+    "inputType": "text",
+    "placeholder": "matte black steel with a steel handle",
+    "required": false
+   },
+   {
+    "key": "headline_text",
+    "label": "Headline",
+    "inputType": "text",
+    "placeholder": "DINNER WITHOUT THE BIG OVEN",
+    "required": true
+   },
+   {
+    "key": "timer_value",
+    "label": "Timer readout",
+    "inputType": "text",
+    "placeholder": "12:30",
+    "required": false
+   },
+   {
+    "key": "spec_chips",
+    "label": "Spec strip",
+    "inputType": "text",
+    "placeholder": "11 L - 200 C - 8 MODES - 1700 W",
+    "required": false
+   },
+   {
+    "key": "callout_text",
+    "label": "Callout",
+    "inputType": "text",
+    "placeholder": "heats in three minutes",
+    "required": false
+   },
+   {
+    "key": "accent_color",
+    "label": "Accent colour",
+    "inputType": "text",
+    "placeholder": "warm orange",
+    "required": false
+   }
+  ]
+ }
+]
