@@ -61,3 +61,6 @@ backend/*.log
 
 # Sitzungsprotokoll zur Fashion-Rettung: 33 MB, bleibt lokal
 wiederherstellung/fashion/sitzungsprotokoll.jsonl
+
+# Zwischenlager fuer Bild-Uebertragungen, gehoert nicht ins Repo
+bilder-upload/
