@@ -1,7 +1,8 @@
 # Seasonal — Stand 04.09.2026
 
-50 Vorlagen liegen als **Entwurf** in Strapi (`design.dalorstudio.com`), Kategorie
-**Seasonal** (`slug: seasonal`). Slugs: `seasonal-*`. Nichts ist veröffentlicht.
+50 Vorlagen sind **veröffentlicht** in Strapi (`design.dalorstudio.com`), Kategorie
+**Seasonal** (`slug: seasonal`). Slugs: `seasonal-*`. Das Review lief 50/50 durch,
+nichts abgelehnt.
 
 ## Was fertig ist
 
@@ -38,10 +39,13 @@
 - 06–10, 21–50: Higgsfield `nano_banana_pro`, 4:5, 2k — Meta AI hatte am
   04.09.2026 sein Tageskontingent erreicht. Vom Nutzer freigegeben.
 
-## Was noch aussteht
+## Review
 
-1. Ordner als ZIP an den Reviewer geben, `index.html` doppelklicken.
-2. `review.json` zurücknehmen:
-   - **approved** → Bild nach `approved/`, Vorlage in Strapi veröffentlichen.
-   - **rejected** → Bild nach `rejected/`, Kritik in `feedback.json`,
-     Vorlage bleibt Entwurf.
+Alle 50 freigegeben. Bilder liegen in
+`C:\Users\User\Downloads\Seasonal\approved\`, `review.json` daneben.
+Kein `rejected/`, keine `feedback.json`.
+
+Gegengeprüft über die öffentliche API: 50 veröffentlicht, jede mit eigenem Bild,
+alle 1408×1760, keine doppelten Bilder, `autoTranslate` überall an.
+
+Nichts steht mehr aus.
