@@ -58,3 +58,6 @@ backend/*.log
 
 .vercel
 .env*
+
+# Sitzungsprotokoll zur Fashion-Rettung: 33 MB, bleibt lokal
+wiederherstellung/fashion/sitzungsprotokoll.jsonl
